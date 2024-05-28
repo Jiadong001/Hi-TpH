@@ -1,0 +1,2585 @@
+{
+    "TRAV26-1*01": {
+        "source gene": "TRAV26-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV21*01": {
+        "source gene": "TRAV21*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLIQSSQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCAVR",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV12-2*01": {
+        "source gene": "TRAV12-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVN",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV19*01": {
+        "source gene": "TRAV19*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKVTQAQTEISVVEKEDVTLDCVYETRDTTYYLFWYKQPPSGELVFLIRRNSFDEQNEISGRYSWNFQKSTSSFNFTITASQVVDSAVYFCALSE",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRAV20*01": {
+        "source gene": "TRAV20*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESSSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCAVQ",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV5*01": {
+        "source gene": "TRAV5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEDVEQSLFLSVREGDSSVINCTYTDSSSTYLYWYKQEPGAGLQLLTYIFSNMDMKQDQRLTVLLNKKDKHLSLRIADTQTGDSAIYFCAES",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV12-1*01": {
+        "source gene": "TRAV12-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "RKEVEQDPGPFNVPEGATVAFNCTYSNSASQSFFWYRQDCRKEPKLLMSVYSSGNEDGRFTAQLNRASQYISLLIRDSKLSDSATYLCVVN",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV3*01": {
+        "source gene": "TRAV3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVAQPEDQVNVAEGNPLTVKCTYSVSGNPYLFWYVQYPNRGLQFLLKYITGDNLVKGSYGFEAEFNKSQTSFHLKKPSALVSDSALYFCAVRD",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRAV12-3*01": {
+        "source gene": "TRAV12-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRKGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMS",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV39*01": {
+        "source gene": "TRAV39*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ELKVEQNPLFLSMQEGKNYTIYCNYSTTSDRLYWYRQDPGKSLESLFVLLSNGAVKQEGRLMASLDTKARLSTLHITAAVHDLSATYFCAVD",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-3*01": {
+        "source gene": "TRAV8-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDAAEYFCAVG",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV22*01": {
+        "source gene": "TRAV22*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GIQVEQSPPDLILQEGANSTLRCNFSDSVNNLQWFHQNPWGQLINLFYIPSGTKQNGRLSATTVATERYSLLYISSSQTTDSGVYFCAVE",
+        "sequence length(aa)": 90,
+        "match source gene": "Perfect"
+    },
+    "TRAV17*01": {
+        "source gene": "TRAV17*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQQGEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATD",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV35*01": {
+        "source gene": "TRAV35*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQLNQSPQSMFIQEGEDVSMNCTSSSIFNTWLWYKQEPGEGPVLLIALYKAGELTSNGRLTAQFGITRKDSFLNISASIPSDVGIYFCAGQ",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV9-2*01": {
+        "source gene": "TRAV9-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCALS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV27*01": {
+        "source gene": "TRAV27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGLYLCAG",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV24*01": {
+        "source gene": "TRAV24*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILNVEQSPQSLHVQEGDSTNFTCSFPSSNFYALHWYRWETAKSPEALFVMTLNGDEKKKGRISATLNTKEGYSYLYIKGSQPEDSATYLCAF",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV30*01": {
+        "source gene": "TRAV30*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVINCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQKGHEKISASFNEKKQQSSLYLTASQLSYSGTYFCGTE",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV26-2*01": {
+        "source gene": "TRAV26-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMASLAIAEDRKSSTLILHRATLRDAAVYYCILRD",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV1-2*01": {
+        "source gene": "TRAV1-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV4*01": {
+        "source gene": "TRAV4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "LAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGD",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV13-1*01": {
+        "source gene": "TRAV13-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GENVEQHPSTLSVQEGDSAVIKCTYSDSASNYFPWYKQELGKGPQLIIDIRSNVGEKKDQRIAVTLNKTAKHFSLHITETQPEDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV1-1*01": {
+        "source gene": "TRAV1-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQSLEQPSEVTAVEGAIVQINCTYQTSGFYGLSWYQQHDGGAPTFLSYNALDGLEETGRFSSFLSRSDSYGYLLLQELQMKDSASYFCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-1*01": {
+        "source gene": "TRAV8-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVSQHNHHVILSEAASLELGCNYSYGGTVNLFWYVQYPGQHLQLLLKYFSGDPLVKGIKGFEAEFIKSKFSFNLRKPSVQWSDTAEYFCAVN",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV16*01": {
+        "source gene": "TRAV16*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQRVTQPEKLLSVFKGAPVELKCNYSYSGSPELFWYVQYSRQRLQLLLRHISRESIKGFTADLNKGETSFHLKKPFAQEEDSAMYYCALS",
+        "sequence length(aa)": 90,
+        "match source gene": "Perfect"
+    },
+    "TRAV6*01": {
+        "source gene": "TRAV6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCALD",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV10*02": {
+        "source gene": "TRAV10*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNQVEQSPQSLIILEGKNCTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV29/DV5*01": {
+        "source gene": "TRAV29/DV5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLHIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-2*01": {
+        "source gene": "TRAV8-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSHVSVSEGTPVLLRCNYSSSYSPSLFWYVQHPNKGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCVVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-6*02": {
+        "source gene": "TRAV8-6*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSQVPVFEEAPVELRCNYSSSVSVYLFWYVQYPNQGLQLLLKYLSGSTLVKGINGFEAEFNKSQTSFHLRKPSVHISDTAEYFCAVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV25*01": {
+        "source gene": "TRAV25*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQVMQIPQYQHVQEGEDFTTYCNSSTTLSNIQWYKQRPGGHPVFLIQLVKSGEVKKQKRLTFQFGEAKKNSSLHITATQTTDVGTYFCAG",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV1-2*03": {
+        "source gene": "TRAV1-2*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-4*01": {
+        "source gene": "TRAV8-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV2*01": {
+        "source gene": "TRAV2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KDQVFQPSTVASSEGAVVEIFCNHSVSNAYNFFWYLHFPGCAPRLLVKGSKPSQQGRYNMTYERFSSSLLILQVREADAAVYYCAVE",
+        "sequence length(aa)": 87,
+        "match source gene": "Perfect"
+    },
+    "TRAV26-1*02": {
+        "source gene": "TRAV26-1*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPTSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV38-2/DV8*01": {
+        "source gene": "TRAV38-2/DV8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSESDYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDAAMYFCAYRS",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRAV38-1*01": {
+        "source gene": "TRAV38-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSENNYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCAFMK",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRAV13-2*01": {
+        "source gene": "TRAV13-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GESVGLHLPTLSVQEGDNSIINCAYSNSASDYFIWYKQESGKGPQFIIDIRSNMDKRQGQRVTVLLNKTVKHLSLQIAATQPGDSAVYFCAEN",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV14/DV4*01": {
+        "source gene": "TRAV14/DV4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDPSYGLFWYKQPSSGEMIFLIYQGSYDQQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRAV10*01": {
+        "source gene": "TRAV10*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNQVEQSPQSLIILEGKNCTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV23/DV6*01": {
+        "source gene": "TRAV23/DV6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV36/DV7*01": {
+        "source gene": "TRAV36/DV7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPLSLVVHEGDTVTLNCSYEVTNFRSLLWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELSSILNITATQTGDSAIYLCAVE",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV41*01": {
+        "source gene": "TRAV41*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNEVEQSPQNLTAQEGEFITINCSYSVGISALHWLQQHPGGGIVSLFMLSSGKKKHGRLIATINIQEKHSSLHITASHPRDSAVYICAVR",
+        "sequence length(aa)": 90,
+        "match source gene": "Perfect"
+    },
+    "TRAV8-6*01": {
+        "source gene": "TRAV8-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSQVPVFEEAPVELRCNYSSSVSVYLFWYVQYPNQGLQLLLKYLSGSTLVESINGFEAEFNKSQTSFHLRKPSVHISDTAEYFCAVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRAV34*01": {
+        "source gene": "TRAV34*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQELEQSPQSLIVQEGKNLTINCTSSKTLYGLYWYKQKYGEGLIFLMMLQKGGEEKSHEKITAKLDEKKQQSSLHITASQPSHAGIYLCGAD",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV14/DV4*02": {
+        "source gene": "TRAV14/DV4*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDQSYGLFWYKQPSSGEMIFLIYQGSYDEQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRAV18*01": {
+        "source gene": "TRAV18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVTQTEGPVTLPERAALTLNCTYQSSYSTFLFWYVQYLNKEPELLLKSSENQETDSRGFQASPIKSDSSFHLEKPSVQLSDSAVYYCALR",
+        "sequence length(aa)": 92,
+        "match source gene": "Perfect"
+    },
+    "TRAV40*01": {
+        "source gene": "TRAV40*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNSVKQTGQITVSEGASVTMNCTYTSTGYPTLFWYVEYPSKPLQLLQRETMENSKNFGGGNIKDKNSPIVKYSVQVSDSAVYYCLLG",
+        "sequence length(aa)": 87,
+        "match source gene": "Perfect"
+    },
+    "TRAV9-1*01": {
+        "source gene": "TRAV9-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVVQTEGQVLPSEGDSLIVNCSYETTQYPSLFWYVQYPGEGPQLHLKAMKANDKGRNKGFEAMYRKETTSFHLEKDSVQESDSAVYFCALS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV2": {
+        "source gene": "TRAV2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KDQVFQPSTVASSEGAVVEIFCNHSVSNAYNFFWYLHFPGCAPRLLVKGSKPSQQGRYNMTYERFSSSLLILQVREADAAVYYCAVE",
+        "sequence length(aa)": 87,
+        "match source gene": "Not perfect"
+    },
+    "TRAV8-2": {
+        "source gene": "TRAV8-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSHVSVSEGTPVLLRCNYSSSYSPSLFWYVQHPNKGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCVVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRAV3": {
+        "source gene": "TRAV3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVAQPEDQVNVAEGNPLTVKCTYSVSGNPYLFWYVQYPNRGLQFLLKYITGDNLVKGSYGFEAEFNKSQTSFHLKKPSALVSDSALYFCAVRD",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRAV9": {
+        "source gene": "TRAV9-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVVQTEGQVLPSEGDSLIVNCSYETTQYPSLFWYVQYPGEGPQLHLKAMKANDKGRNKGFEAMYRKETTSFHLEKDSVQESDSAVYFCALS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV1-1": {
+        "source gene": "TRAV1-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQSLEQPSEVTAVEGAIVQINCTYQTSGFYGLSWYQQHDGGAPTFLSYNALDGLEETGRFSSFLSRSDSYGYLLLQELQMKDSASYFCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV25": {
+        "source gene": "TRAV25*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQVMQIPQYQHVQEGEDFTTYCNSSTTLSNIQWYKQRPGGHPVFLIQLVKSGEVKKQKRLTFQFGEAKKNSSLHITATQTTDVGTYFCAG",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV1-4": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV1-2": {
+        "source gene": "TRAV1-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV28": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV16": {
+        "source gene": "TRAV16*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQRVTQPEKLLSVFKGAPVELKCNYSYSGSPELFWYVQYSRQRLQLLLRHISRESIKGFTADLNKGETSFHLKKPFAQEEDSAMYYCALS",
+        "sequence length(aa)": 90,
+        "match source gene": "Not perfect"
+    },
+    "TRAV2-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV21": {
+        "source gene": "TRAV21*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLIQSSQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCAVR",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV26": {
+        "source gene": "TRAV26-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV15": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV12-1": {
+        "source gene": "TRAV12-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "RKEVEQDPGPFNVPEGATVAFNCTYSNSASQSFFWYRQDCRKEPKLLMSVYSSGNEDGRFTAQLNRASQYISLLIRDSKLSDSATYLCVVN",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV18": {
+        "source gene": "TRAV18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVTQTEGPVTLPERAALTLNCTYQSSYSTFLFWYVQYLNKEPELLLKSSENQETDSRGFQASPIKSDSSFHLEKPSVQLSDSAVYYCALR",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV4": {
+        "source gene": "TRAV4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "LAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGD",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV23": {
+        "source gene": "TRAV23/DV6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV27": {
+        "source gene": "TRAV27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGLYLCAG",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV19": {
+        "source gene": "TRAV19*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKVTQAQTEISVVEKEDVTLDCVYETRDTTYYLFWYKQPPSGELVFLIRRNSFDEQNEISGRYSWNFQKSTSSFNFTITASQVVDSAVYFCALSE",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRAV2-2": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV6": {
+        "source gene": "TRAV6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCALD",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV5": {
+        "source gene": "TRAV5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEDVEQSLFLSVREGDSSVINCTYTDSSSTYLYWYKQEPGAGLQLLTYIFSNMDMKQDQRLTVLLNKKDKHLSLRIADTQTGDSAIYFCAES",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV14": {
+        "source gene": "TRAV14/DV4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDPSYGLFWYKQPSSGEMIFLIYQGSYDQQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRAV9-2": {
+        "source gene": "TRAV9-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCALS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV1": {
+        "source gene": "TRAV1-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQSLEQPSEVTAVEGAIVQINCTYQTSGFYGLSWYQQHDGGAPTFLSYNALDGLEETGRFSSFLSRSDSYGYLLLQELQMKDSASYFCAVR",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV8-3": {
+        "source gene": "TRAV8-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDAAEYFCAVG",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRAV11": {
+        "source gene": "TRAV11*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "LHTLEQSPSFLNIQEGMHAVLNCTYQERTLFNFHWFRQDPGRRLVSLTLIQSSQKEQGDKYFKELLGKEKFYSVWNIAASHLGDSATYFCAL",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV1*01": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV13-1": {
+        "source gene": "TRAV13-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GENVEQHPSTLSVQEGDSAVIKCTYSDSASNYFPWYKQELGKGPQLIIDIRSNVGEKKDQRIAVTLNKTAKHFSLHITETQPEDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV8-4": {
+        "source gene": "TRAV8-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRAV8-6": {
+        "source gene": "TRAV8-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSQVPVFEEAPVELRCNYSSSVSVYLFWYVQYPNQGLQLLLKYLSGSTLVESINGFEAEFNKSQTSFHLRKPSVHISDTAEYFCAVS",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRAV251": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV17": {
+        "source gene": "TRAV17*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQQGEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATD",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV40": {
+        "source gene": "TRAV40*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNSVKQTGQITVSEGASVTMNCTYTSTGYPTLFWYVEYPSKPLQLLQRETMENSKNFGGGNIKDKNSPIVKYSVQVSDSAVYYCLLG",
+        "sequence length(aa)": 87,
+        "match source gene": "Not perfect"
+    },
+    "TRAV12-2": {
+        "source gene": "TRAV12-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVN",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV21-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV13-2": {
+        "source gene": "TRAV13-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GESVGLHLPTLSVQEGDNSIINCAYSNSASDYFIWYKQESGKGPQFIIDIRSNMDKRQGQRVTVLLNKTVKHLSLQIAATQPGDSAVYFCAEN",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV8-1": {
+        "source gene": "TRAV8-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVSQHNHHVILSEAASLELGCNYSYGGTVNLFWYVQYPGQHLQLLLKYFSGDPLVKGIKGFEAEFIKSKFSFNLRKPSVQWSDTAEYFCAVN",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRAV26-1": {
+        "source gene": "TRAV26-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV21-2": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAV26-2": {
+        "source gene": "TRAV26-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMASLAIAEDRKSSTLILHRATLRDAAVYYCILRD",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV29/DV5": {
+        "source gene": "TRAV29/DV5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLHIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV14/DV4": {
+        "source gene": "TRAV14/DV4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDPSYGLFWYKQPSSGEMIFLIYQGSYDQQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRAV20": {
+        "source gene": "TRAV20*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESSSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCAVQ",
+        "sequence length(aa)": 91,
+        "match source gene": "Not perfect"
+    },
+    "TRAV22": {
+        "source gene": "TRAV22*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GIQVEQSPPDLILQEGANSTLRCNFSDSVNNLQWFHQNPWGQLINLFYIPSGTKQNGRLSATTVATERYSLLYISSSQTTDSGVYFCAVE",
+        "sequence length(aa)": 90,
+        "match source gene": "Not perfect"
+    },
+    "TRAV24": {
+        "source gene": "TRAV24*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILNVEQSPQSLHVQEGDSTNFTCSFPSSNFYALHWYRWETAKSPEALFVMTLNGDEKKKGRISATLNTKEGYSYLYIKGSQPEDSATYLCAF",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV23/DV6": {
+        "source gene": "TRAV23/DV6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV39": {
+        "source gene": "TRAV39*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ELKVEQNPLFLSMQEGKNYTIYCNYSTTSDRLYWYRQDPGKSLESLFVLLSNGAVKQEGRLMASLDTKARLSTLHITAAVHDLSATYFCAVD",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV10": {
+        "source gene": "TRAV10*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNQVEQSPQSLIILEGKNCTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV12-3": {
+        "source gene": "TRAV12-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRKGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMS",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV38-1": {
+        "source gene": "TRAV38-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSENNYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCAFMK",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRAV29/DV5*02": {
+        "source gene": "TRAV29/DV5*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLDIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRAV6*03": {
+        "source gene": "TRAV6*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCA",
+        "sequence length(aa)": 83,
+        "match source gene": "Perfect"
+    },
+    "TRAV26-1*03": {
+        "source gene": "TRAV26-1*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQNIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCI",
+        "sequence length(aa)": 89,
+        "match source gene": "Perfect"
+    },
+    "TRAV35": {
+        "source gene": "TRAV35*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQLNQSPQSMFIQEGEDVSMNCTSSSIFNTWLWYKQEPGEGPVLLIALYKAGELTSNGRLTAQFGITRKDSFLNISASIPSDVGIYFCAGQ",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAV38-2": {
+        "source gene": "TRAV38-2/DV8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSESDYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDAAMYFCAYRS",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRAV29": {
+        "source gene": "TRAV29/DV5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLHIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Not perfect"
+    },
+    "TRAV41": {
+        "source gene": "TRAV41*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNEVEQSPQNLTAQEGEFITINCSYSVGISALHWLQQHPGGGIVSLFMLSSGKKKHGRLIATINIQEKHSSLHITASHPRDSAVYICAVR",
+        "sequence length(aa)": 90,
+        "match source gene": "Not perfect"
+    },
+    "TRAV34": {
+        "source gene": "TRAV34*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQELEQSPQSLIVQEGKNLTINCTSSKTLYGLYWYKQKYGEGLIFLMMLQKGGEEKSHEKITAKLDEKKQQSSLHITASQPSHAGIYLCGAD",
+        "sequence length(aa)": 92,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ37*01": {
+        "source gene": "TRAJ37*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GSGNTGKLIFGQGTTLQVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ6*01": {
+        "source gene": "TRAJ6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ASGGSYIPTFGRGTSLIVHP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ13*01": {
+        "source gene": "TRAJ13*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGYQKVTFGIGTKLQVIP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ24*02": {
+        "source gene": "TRAJ24*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKLQFGAGTQVVVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ34*01": {
+        "source gene": "TRAJ34*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNTDKLIFGTGTRLQVFP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ27*01": {
+        "source gene": "TRAJ27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTNAGKSTFGDGTTLTVKP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ53*01": {
+        "source gene": "TRAJ53*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGSNYKLTFGKGTLLTVNP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ31*01": {
+        "source gene": "TRAJ31*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNARLMFGDGTQLVVKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ23*01": {
+        "source gene": "TRAJ23*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYNQGGKLIFGQGTELSVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ29*01": {
+        "source gene": "TRAJ29*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGNTPLVFGKGTRLSVIA",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ12*01": {
+        "source gene": "TRAJ12*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "MDSSYKLIFGSGTRLLVRP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ33*01": {
+        "source gene": "TRAJ33*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSNYQLIWGAGTKLIIKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ28*01": {
+        "source gene": "TRAJ28*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGAGSYQLTFGKGTKLSVIP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ40*01": {
+        "source gene": "TRAJ40*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTSGTYKYIFGTGTRLKVLA",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ22*01": {
+        "source gene": "TRAJ22*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SSGSARQLTFGSGTQLTVLP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ49*01": {
+        "source gene": "TRAJ49*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGNQFYFGTGTSLTVIP",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ43*01": {
+        "source gene": "TRAJ43*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNDMRFGAGTRLTVKP",
+        "sequence length(aa)": 17,
+        "match source gene": "Perfect"
+    },
+    "TRAJ42*01": {
+        "source gene": "TRAJ42*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGSQGNLIFGKGTKLSVKP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ39*01": {
+        "source gene": "TRAJ39*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNAGNMLTFGGGTRLMVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ41*01": {
+        "source gene": "TRAJ41*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSNSGYALNFGKGTSLLVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ21*01": {
+        "source gene": "TRAJ21*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YNFNKFYFGSGTKLNVKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ8*01": {
+        "source gene": "TRAJ8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGFQKLVFGTGTRLLVSP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ54*01": {
+        "source gene": "TRAJ54*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IQGAQKLVFGQGTRLTINP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ23*02": {
+        "source gene": "TRAJ23*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYNQGGKLIFGQGTELSVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ11*01": {
+        "source gene": "TRAJ11*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGYSTLTFGKGTMLLVSP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ26*01": {
+        "source gene": "TRAJ26*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DNYGQNFVFGPGTRLSVLP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ15*01": {
+        "source gene": "TRAJ15*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NQAGTALIFGKGTTLSVSS",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ30*01": {
+        "source gene": "TRAJ30*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NRDDKIIFGKGTRLHILP",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ44*01": {
+        "source gene": "TRAJ44*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGTASKLTFGTGTRLQVTL",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ9*01": {
+        "source gene": "TRAJ9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNTGGFKTIFGAGTRLFVKA",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ5*01": {
+        "source gene": "TRAJ5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGRRALTFGSGTRLQVQP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ13*02": {
+        "source gene": "TRAJ13*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGYQKVTFGTGTKLQVIP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ48*01": {
+        "source gene": "TRAJ48*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNFGNEKLTFGTGTRLTIIP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ20*01": {
+        "source gene": "TRAJ20*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNDYKLSFGAGTTVTVRA",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ32*02": {
+        "source gene": "TRAJ32*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGATNKLIFGTGTLLAVQP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ24*03": {
+        "source gene": "TRAJ24*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKFQFGAGTQVVVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ18*01": {
+        "source gene": "TRAJ18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DRGSTLGRLYFGRGTQLTVWP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ52*01": {
+        "source gene": "TRAJ52*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGGTSYGKLTFGQGTILTVHP",
+        "sequence length(aa)": 22,
+        "match source gene": "Perfect"
+    },
+    "TRAJ38*01": {
+        "source gene": "TRAJ38*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGNNRKLIWGLGTSLAVNP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ45*01": {
+        "source gene": "TRAJ45*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGGGADGLTFGKGTHLIIQP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ10*01": {
+        "source gene": "TRAJ10*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILTGGGNKLTFGTGTQLKVEL",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ3*01": {
+        "source gene": "TRAJ3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GYSSASKIIFGSGTRLSIRP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ7*01": {
+        "source gene": "TRAJ7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DYGNNRLAFGKGNQVVVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ57*01": {
+        "source gene": "TRAJ57*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQGGSEKLVFGKGTKLTVNP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ17*01": {
+        "source gene": "TRAJ17*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IKAAGNKLTFGGGTRVLVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ24*01": {
+        "source gene": "TRAJ24*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKFEFGAGTQVVVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ50*01": {
+        "source gene": "TRAJ50*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KTSYDKVIFGPGTSLSVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ47*01": {
+        "source gene": "TRAJ47*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EYGNKLVFGAGTILRVKS",
+        "sequence length(aa)": 18,
+        "match source gene": "Perfect"
+    },
+    "TRAJ4*01": {
+        "source gene": "TRAJ4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSGGYNKLIFGAGTRLAVHP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ56*01": {
+        "source gene": "TRAJ56*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YTGANSKLTFGKGITLSVRP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ36*01": {
+        "source gene": "TRAJ36*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QTGANNLFFGTGTRLTVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Perfect"
+    },
+    "TRAJ32*01": {
+        "source gene": "TRAJ32*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGATNKLIFGTGTLLAVQP",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ46*01": {
+        "source gene": "TRAJ46*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KKSSGDKLTFGTGTRLAVRP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ14*01": {
+        "source gene": "TRAJ14*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYSTFIFGSGTRLSVKP",
+        "sequence length(aa)": 17,
+        "match source gene": "Perfect"
+    },
+    "TRAJ5-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ15": {
+        "source gene": "TRAJ15*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NQAGTALIFGKGTTLSVSS",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ9": {
+        "source gene": "TRAJ9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNTGGFKTIFGAGTRLFVKA",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ2": {
+        "source gene": "TRAJ2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGGTIDKLTFGKGTHVFIIS",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ5": {
+        "source gene": "TRAJ5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGRRALTFGSGTRLQVQP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ45": {
+        "source gene": "TRAJ45*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGGGADGLTFGKGTHLIIQP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ49": {
+        "source gene": "TRAJ49*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGNQFYFGTGTSLTVIP",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ54": {
+        "source gene": "TRAJ54*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IQGAQKLVFGQGTRLTINP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ21": {
+        "source gene": "TRAJ21*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YNFNKFYFGSGTKLNVKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ39": {
+        "source gene": "TRAJ39*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNAGNMLTFGGGTRLMVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ53": {
+        "source gene": "TRAJ53*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGSNYKLTFGKGTLLTVNP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ40": {
+        "source gene": "TRAJ40*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTSGTYKYIFGTGTRLKVLA",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ42": {
+        "source gene": "TRAJ42*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGSQGNLIFGKGTKLSVKP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ36": {
+        "source gene": "TRAJ36*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QTGANNLFFGTGTRLTVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ38": {
+        "source gene": "TRAJ38*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGNNRKLIWGLGTSLAVNP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ26": {
+        "source gene": "TRAJ26*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DNYGQNFVFGPGTRLSVLP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ3": {
+        "source gene": "TRAJ3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GYSSASKIIFGSGTRLSIRP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ37": {
+        "source gene": "TRAJ37*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GSGNTGKLIFGQGTTLQVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ11": {
+        "source gene": "TRAJ11*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGYSTLTFGKGTMLLVSP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ31": {
+        "source gene": "TRAJ31*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNARLMFGDGTQLVVKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ34": {
+        "source gene": "TRAJ34*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNTDKLIFGTGTRLQVFP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ23": {
+        "source gene": "TRAJ23*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYNQGGKLIFGQGTELSVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ16": {
+        "source gene": "TRAJ16*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSDGQKLLFARGTMLKVDL",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ43": {
+        "source gene": "TRAJ43*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNDMRFGAGTRLTVKP",
+        "sequence length(aa)": 17,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ44": {
+        "source gene": "TRAJ44*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGTASKLTFGTGTRLQVTL",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ50": {
+        "source gene": "TRAJ50*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KTSYDKVIFGPGTSLSVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ20": {
+        "source gene": "TRAJ20*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNDYKLSFGAGTTVTVRA",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ58": {
+        "source gene": "TRAJ58*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "*ETSGSRLTFGEGTQLTVNP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ35": {
+        "source gene": "TRAJ35*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IGFGNVLHCGSGTQVIVLP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ6": {
+        "source gene": "TRAJ6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ASGGSYIPTFGRGTSLIVHP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ48": {
+        "source gene": "TRAJ48*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNFGNEKLTFGTGTRLTIIP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ57": {
+        "source gene": "TRAJ57*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQGGSEKLVFGKGTKLTVNP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ13": {
+        "source gene": "TRAJ13*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGYQKVTFGIGTKLQVIP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ52": {
+        "source gene": "TRAJ52*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGGTSYGKLTFGQGTILTVHP",
+        "sequence length(aa)": 22,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ4": {
+        "source gene": "TRAJ4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSGGYNKLIFGAGTRLAVHP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ33": {
+        "source gene": "TRAJ33*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSNYQLIWGAGTKLIIKP",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ30": {
+        "source gene": "TRAJ30*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NRDDKIIFGKGTRLHILP",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ32": {
+        "source gene": "TRAJ32*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGATNKLIFGTGTLLAVQP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ10": {
+        "source gene": "TRAJ10*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILTGGGNKLTFGTGTQLKVEL",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ24": {
+        "source gene": "TRAJ24*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKFEFGAGTQVVVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ7": {
+        "source gene": "TRAJ7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DYGNNRLAFGKGNQVVVIP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ28": {
+        "source gene": "TRAJ28*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGAGSYQLTFGKGTKLSVIP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ41": {
+        "source gene": "TRAJ41*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSNSGYALNFGKGTSLLVTP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ17": {
+        "source gene": "TRAJ17*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IKAAGNKLTFGGGTRVLVKP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ47": {
+        "source gene": "TRAJ47*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EYGNKLVFGAGTILRVKS",
+        "sequence length(aa)": 18,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ8": {
+        "source gene": "TRAJ8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGFQKLVFGTGTRLLVSP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ22": {
+        "source gene": "TRAJ22*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SSGSARQLTFGSGTQLTVLP",
+        "sequence length(aa)": 20,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ27": {
+        "source gene": "TRAJ27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTNAGKSTFGDGTTLTVKP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ29": {
+        "source gene": "TRAJ29*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGNTPLVFGKGTRLSVIA",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ12": {
+        "source gene": "TRAJ12*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "MDSSYKLIFGSGTRLLVRP",
+        "sequence length(aa)": 19,
+        "match source gene": "Not perfect"
+    },
+    "TRAJ1*01": {
+        "source gene": "TRAJ1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "YESITSQLQFGKGTRVSTSP",
+        "sequence length(aa)": 20,
+        "match source gene": "Perfect"
+    },
+    "TRAJ2*01": {
+        "source gene": "TRAJ2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGGTIDKLTFGKGTHVFIIS",
+        "sequence length(aa)": 21,
+        "match source gene": "Perfect"
+    },
+    "TRAJ53*02": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ2-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ3-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ20-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ34-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ33-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ31-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ32-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRAJ18": {
+        "source gene": "TRAJ18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DRGSTLGRLYFGRGTQLTVWP",
+        "sequence length(aa)": 21,
+        "match source gene": "Not perfect"
+    },
+    "TRBV14*01": {
+        "source gene": "TRBV14*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQFPSHSVIEKGQTVTLRCDPISGHDNLYWYRRVMGKEIKFLLHFVKESKQDESGMPNNRFLAERTGGTYSTLKVQPAELEDSGVYFCASSQ",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-5*01": {
+        "source gene": "TRBV6-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-9*01": {
+        "source gene": "TRBV7-9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-1*01": {
+        "source gene": "TRBV6-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV30*02": {
+        "source gene": "TRBV30*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRBV9*01": {
+        "source gene": "TRBV9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIQYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSV",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV9*02": {
+        "source gene": "TRBV9*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIHYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSV",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV20-1*01": {
+        "source gene": "TRBV20-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-3*01": {
+        "source gene": "TRBV6-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV12-4*01": {
+        "source gene": "TRBV12-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHDYLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV19*01": {
+        "source gene": "TRBV19*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSI",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV5-6*01": {
+        "source gene": "TRBV5-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPKSGHDTVSWYQQALGQGPQFIFQYYEEEERQRGNFPDRFSGHQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV4-1*01": {
+        "source gene": "TRBV4-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTEVTQTPKHLVMGMTNKKSLKCEQHMGHRAMYWYKQKAKKPPELMFVYSYEKLSINESVPSRFSPECPNSSLLNLHLHALQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV27*01": {
+        "source gene": "TRBV27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAQVTQNPRYLITVTGKKLTVTCSQNMNHEYMSWYRQDPGLGLRQIYYSMNVEVTDKGDVPEGYKVSRKEKRNFPLILESPSPNQTSLYFCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-3*01": {
+        "source gene": "TRBV7-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQTPSNKVTEKGKYVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPNDRFFAVRPEGSVSTLKIQRTERGDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-4*01": {
+        "source gene": "TRBV6-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSD",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV10-3*01": {
+        "source gene": "TRBV10-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFCAISE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV11-2*01": {
+        "source gene": "TRBV11-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV5-1*01": {
+        "source gene": "TRBV5-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KAGVTQTPRYLIKTRGQQVTLSCSPISGHRSVSWYQQTPGQGLQFLFEYFSETQRNKGNFPGRFSGRQFSNSRSEMNVSTLELGDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-2*02": {
+        "source gene": "TRBV7-2*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQRLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGESVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-6*01": {
+        "source gene": "TRBV7-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV28*01": {
+        "source gene": "TRBV28*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DVKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILESASTNQTSMYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV10-2*02": {
+        "source gene": "TRBV10-2*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRYKITETGRQVTLMCHQTWSHSYMFWYRQDLGHGLRLIYYSAAADITDKGEVPDGYVVSRSKTENFPLTLESATRSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV18*01": {
+        "source gene": "TRBV18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVMQNPRHLVRRRGQEARLRCSPMKGHSHVYWYRQLPEEGLKFMVYLQKENIIDESGMPKERFSAEFPKEGPSILRIQQVVRGDSAAYFCASSP",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV5-4*01": {
+        "source gene": "TRBV5-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQSPTHLIKTRGQQVTLRCSSQSGHNTVSWYQQALGQGPQFIFQYYREEENGRGNFPPRFSGLQFPNYSSELNVNALELDDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-9*03": {
+        "source gene": "TRBV7-9*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQDPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-6*02": {
+        "source gene": "TRBV6-6*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCAQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV4-3*01": {
+        "source gene": "TRBV4-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV2*01": {
+        "source gene": "TRBV2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPEVTQTPSHQVTQMGQEVILRCVPISNHLYFYWYRQILGQKVEFLVSFYNNEISEKSEIFDDQFSVERPDGSNFTLKIRSTKLEDSAMYFCASSE",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-2*01": {
+        "source gene": "TRBV7-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGGSVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV3-1*01": {
+        "source gene": "TRBV3-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGNDKSIKCEQNLGHDTMYWYKQDSKKFLKIMFSYNNKELIINETVPNRFSPKSPDKAHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV15*02": {
+        "source gene": "TRBV15*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYQVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYDKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDAAMYLCATSR",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV12-3*01": {
+        "source gene": "TRBV12-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHNSLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV24-1*01": {
+        "source gene": "TRBV24-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DADVTQTPRNRITKTGKRIMLECSQTKGHDRMYWYRQDPGLGLRLIYYSFDVKDINKGEISDGYSVSRQAQAKFSLSLESAIPNQTALYFCATSDL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-6*01": {
+        "source gene": "TRBV6-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCTQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV5-5*01": {
+        "source gene": "TRBV5-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPISGHKSVSWYQQVLGQGPQFIFQYYEKEERGRGNFPDRFSARQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV13*01": {
+        "source gene": "TRBV13*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AAGVIQSPRHLIKEKRETATLKCYPIPRHDTVYWYQQGPGQDPQFLISFYEKMQSDKGSIPDRFSAQQFSDYHSELNMSSLELGDSALYFCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV4-2*01": {
+        "source gene": "TRBV4-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYNFKEQTENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV11-1*01": {
+        "source gene": "TRBV11-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAEVAQSPRYKITEKSQAVAFWCDPISGHATLYWYRQILGQGPELLVQFQDESVVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAMYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV30*01": {
+        "source gene": "TRBV30*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRBV15*01": {
+        "source gene": "TRBV15*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYQVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYDKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDTAMYLCATSR",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-8*01": {
+        "source gene": "TRBV7-8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-2*01": {
+        "source gene": "TRBV6-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV25-1*01": {
+        "source gene": "TRBV25-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EADIYQTPRYLVIGTGKKITLECSQTMGHDKMYWYQQDPGMELHLIHYSYGVNSTEKGDLSSESTVSRIRTEHFPLTLESARPSHTSQYLCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV29-1*01": {
+        "source gene": "TRBV29-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSLTIQCQVDSQVTMMFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSTLTVSNMSPEDSSIYLCSVE",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV10-2*01": {
+        "source gene": "TRBV10-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRYKITETGRQVTLMCHQTWSHSYMFWYRQDLGHGLRLIYYSAAADITDKGEVPDGYVVSRSKTENFPLTLESATRSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV16*01": {
+        "source gene": "TRBV16*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEEVAQTPKHLVRGEGQKAKLYCAPIKGHSYVFWYQQVLKNEFKFLISFQNENVFDETGMPKERFSAKCLPNSPCSLEIQATKLEDSAVYFCASSQ",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV10-1*01": {
+        "source gene": "TRBV10-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAEITQSPRHKITETGRQVTLACHQTWNHNNMFWYRQDLGHGLRLIHYSYGVQDTNKGEVSDGYSVSRSNTEDLPLTLESAASSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-7*01": {
+        "source gene": "TRBV7-7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVTLRCDPISSHATLYWYQQALGQGPEFLTYFNYEAQPDKSGLPSDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV12-5*01": {
+        "source gene": "TRBV12-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DARVTQTPRHKVTEMGQEVTMRCQPILGHNTVFWYRQTMMQGLELLAYFRNRAPLDDSGMPKDRFSAEMPDATLATLKIQPSEPRDSAVYFCASGL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV11-3*01": {
+        "source gene": "TRBV11-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVVQSPRYKIIEKKQPVAFWCNPISGHNTLYWYLQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV5-8*01": {
+        "source gene": "TRBV5-8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQSPTHLIKTRGQQATLRCSPISGHTSVYWYQQALGLGLQFLLWYDEGEERNRGNFPPRFSGRQFPNYSSELNVNALELEDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV20-1*02": {
+        "source gene": "TRBV20-1*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-8*02": {
+        "source gene": "TRBV7-8*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQKEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV10-3*02": {
+        "source gene": "TRBV10-3*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFCAISE",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV19*02": {
+        "source gene": "TRBV19*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQVPGQGLRLIYYSHIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSI",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-4*01": {
+        "source gene": "TRBV7-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGRDVALRCDSISGHVTLYWYRQTLGQGSEVLTYSQSDAQRDKSGRPSGRFSAERPERSVSTLKIQRTEQGDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV7-2*03": {
+        "source gene": "TRBV7-2*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQRLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGESVSTLTIQRTQQEDSAVYLCTSSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-9*01": {
+        "source gene": "TRBV6-9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFHILKTGQSMTLQCAQDMNHGYLSWYRQDPGMGLRRIHYSVAAGITDKGEVPDGYNVSRSNTEDFPLRLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-8*01": {
+        "source gene": "TRBV6-8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFHILKTGQSMTLQCAQDMNHGYMSWYRQDPGMGLRLIYYSAAAGTTDKEVPNGYNVSRLNTEDFPLRLVSAAPSQTSVYLCASSY",
+        "sequence length(aa)": 94,
+        "match source gene": "Perfect"
+    },
+    "TRBV6-4*02": {
+        "source gene": "TRBV6-4*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TAGITQAPTSQILAAGRSMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSD",
+        "sequence length(aa)": 95,
+        "match source gene": "Perfect"
+    },
+    "TRBV4": {
+        "source gene": "TRBV4-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTEVTQTPKHLVMGMTNKKSLKCEQHMGHRAMYWYKQKAKKPPELMFVYSYEKLSINESVPSRFSPECPNSSLLNLHLHALQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV12": {
+        "source gene": "TRBV12-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHKVTEMGQSVTLRCEPISGHNDLLWYRQTFVQGLELLNYFCSWTLVDDSGVSKD*FSAQMPDVSFSTLRIQPMEPRDLGLYFCASSF",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6": {
+        "source gene": "TRBV6-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV7": {
+        "source gene": "TRBV7-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSLRHKVAKKGKDVALRYDPISGHNALYWYRQSLGQGLEFPIYFQGKDAADKSGLPRDRFSAQRSEGSISTLKFQRTQQGDLAVYLCASSS",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV2": {
+        "source gene": "TRBV2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPEVTQTPSHQVTQMGQEVILRCVPISNHLYFYWYRQILGQKVEFLVSFYNNEISEKSEIFDDQFSVERPDGSNFTLKIRSTKLEDSAMYFCASSE",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV11-1": {
+        "source gene": "TRBV11-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAEVAQSPRYKITEKSQAVAFWCDPISGHATLYWYRQILGQGPELLVQFQDESVVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAMYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV7-8": {
+        "source gene": "TRBV7-8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV28": {
+        "source gene": "TRBV28*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DVKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILESASTNQTSMYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV9": {
+        "source gene": "TRBV9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIQYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSV",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV25-1": {
+        "source gene": "TRBV25-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EADIYQTPRYLVIGTGKKITLECSQTMGHDKMYWYQQDPGMELHLIHYSYGVNSTEKGDLSSESTVSRIRTEHFPLTLESARPSHTSQYLCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV20-1": {
+        "source gene": "TRBV20-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97,
+        "match source gene": "Not perfect"
+    },
+    "TRBV14": {
+        "source gene": "TRBV14*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQFPSHSVIEKGQTVTLRCDPISGHDNLYWYRRVMGKEIKFLLHFVKESKQDESGMPNNRFLAERTGGTYSTLKVQPAELEDSGVYFCASSQ",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV29-1": {
+        "source gene": "TRBV29-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSLTIQCQVDSQVTMMFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSTLTVSNMSPEDSSIYLCSVE",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV20": {
+        "source gene": "TRBV20-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97,
+        "match source gene": "Not perfect"
+    },
+    "TRBV1": {
+        "source gene": "TRBV1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGITQTPKYLVTAMGSKRTMKREHLGHDSMYWYRQKAKKSLEFMFYYNCKEFIENKTVPNHFTPECPDSSRLYLHVVALQQEDSAAYLCTSSQ",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRBV13": {
+        "source gene": "TRBV13*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AAGVIQSPRHLIKEKRETATLKCYPIPRHDTVYWYQQGPGQDPQFLISFYEKMQSDKGSIPDRFSAQQFSDYHSELNMSSLELGDSALYFCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV3": {
+        "source gene": "TRBV3-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGNDKSIKCEQNLGHDTMYWYKQDSKKFLKIMFSYNNKELIINETVPNRFSPKSPDKAHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-3": {
+        "source gene": "TRBV6-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV23": {
+        "source gene": "TRBV23-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "HAKVTQTPGHLVKGKGQKTKMDCTPEKGHTFVYWYQQNQNKEFMLLISFQNEQVLQETEMHKKRFSSQCPKNAPCSLAILSSEPGDTALYLCASSQ",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-2": {
+        "source gene": "TRBV6-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV8": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBV15": {
+        "source gene": "TRBV15*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYQVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYDKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDTAMYLCATSR",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV7-9": {
+        "source gene": "TRBV7-9*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV19": {
+        "source gene": "TRBV19*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSI",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV5-4": {
+        "source gene": "TRBV5-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQSPTHLIKTRGQQVTLRCSSQSGHNTVSWYQQALGQGPQFIFQYYREEENGRGNFPPRFSGLQFPNYSSELNVNALELDDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV30": {
+        "source gene": "TRBV30*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-1": {
+        "source gene": "TRBV6-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV11-3": {
+        "source gene": "TRBV11-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVVQSPRYKIIEKKQPVAFWCNPISGHNTLYWYLQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV11-2": {
+        "source gene": "TRBV11-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV4-1": {
+        "source gene": "TRBV4-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTEVTQTPKHLVMGMTNKKSLKCEQHMGHRAMYWYKQKAKKPPELMFVYSYEKLSINESVPSRFSPECPNSSLLNLHLHALQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV23-1": {
+        "source gene": "TRBV23-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "HAKVTQTPGHLVKGKGQKTKMDCTPEKGHTFVYWYQQNQNKEFMLLISFQNEQVLQETEMHKKRFSSQCPKNAPCSLAILSSEPGDTALYLCASSQ",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV3-1": {
+        "source gene": "TRBV3-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGNDKSIKCEQNLGHDTMYWYKQDSKKFLKIMFSYNNKELIINETVPNRFSPKSPDKAHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-6": {
+        "source gene": "TRBV6-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCTQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV10-3": {
+        "source gene": "TRBV10-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFCAISE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV12-4": {
+        "source gene": "TRBV12-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHDYLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV12-3": {
+        "source gene": "TRBV12-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHNSLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV5-1": {
+        "source gene": "TRBV5-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "KAGVTQTPRYLIKTRGQQVTLSCSPISGHRSVSWYQQTPGQGLQFLFEYFSETQRNKGNFPGRFSGRQFSNSRSEMNVSTLELGDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-4": {
+        "source gene": "TRBV6-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "IAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSD",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV6-5": {
+        "source gene": "TRBV6-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV4-3": {
+        "source gene": "TRBV4-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV10-1": {
+        "source gene": "TRBV10-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAEITQSPRHKITETGRQVTLACHQTWNHNNMFWYRQDLGHGLRLIHYSYGVQDTNKGEVSDGYSVSRSNTEDLPLTLESAASSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV7-2": {
+        "source gene": "TRBV7-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGGSVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV10-2": {
+        "source gene": "TRBV10-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRYKITETGRQVTLMCHQTWSHSYMFWYRQDLGHGLRLIYYSAAADITDKGEVPDGYVVSRSKTENFPLTLESATRSQTSVYFCASSE",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV27": {
+        "source gene": "TRBV27*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAQVTQNPRYLITVTGKKLTVTCSQNMNHEYMSWYRQDPGLGLRQIYYSMNVEVTDKGDVPEGYKVSRKEKRNFPLILESPSPNQTSLYFCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV7-6": {
+        "source gene": "TRBV7-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV5-8": {
+        "source gene": "TRBV5-8*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQSPTHLIKTRGQQATLRCSPISGHTSVYWYQQALGLGLQFLLWYDEGEERNRGNFPPRFSGRQFPNYSSELNVNALELEDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV18": {
+        "source gene": "TRBV18*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVMQNPRHLVRRRGQEARLRCSPMKGHSHVYWYRQLPEEGLKFMVYLQKENIIDESGMPKERFSAEFPKEGPSILRIQQVVRGDSAAYFCASSP",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV4-2": {
+        "source gene": "TRBV4-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYNFKEQTENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV5-6": {
+        "source gene": "TRBV5-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPKSGHDTVSWYQQALGQGPQFIFQYYEEEERQRGNFPDRFSGHQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95,
+        "match source gene": "Not perfect"
+    },
+    "TRBV1-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBV2-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBV9-1": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBV7-1": {
+        "source gene": "TRBV7-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSLRHKVAKKGKDVALRYDPISGHNALYWYRQSLGQGLEFPIYFQGKDAADKSGLPRDRFSAQRSEGSISTLKFQRTQQGDLAVYLCASSS",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBV9-2": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBV19*03": {
+        "source gene": "TRBV19*03",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSHIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCAS",
+        "sequence length(aa)": 93,
+        "match source gene": "Perfect"
+    },
+    "TRBV24-1": {
+        "source gene": "TRBV24-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "DADVTQTPRNRITKTGKRIMLECSQTKGHDRMYWYRQDPGLGLRLIYYSFDVKDINKGEISDGYSVSRQAQAKFSLSLESAIPNQTALYFCATSDL",
+        "sequence length(aa)": 96,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-3*01": {
+        "source gene": "TRBJ2-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "STDTQYFGPGTRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-2*01": {
+        "source gene": "TRBJ2-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGELFFGEGSRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-1*01": {
+        "source gene": "TRBJ2-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNEQFFGPGTRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-7*01": {
+        "source gene": "TRBJ2-7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYEQYFGPGTRLTVT",
+        "sequence length(aa)": 15,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-2*01": {
+        "source gene": "TRBJ1-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGYTFGSGTRLTVV",
+        "sequence length(aa)": 15,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-4*01": {
+        "source gene": "TRBJ2-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AKNIQYFGAGTRLSVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-1*01": {
+        "source gene": "TRBJ1-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTEAFFGQGTRLTVV",
+        "sequence length(aa)": 15,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-5*01": {
+        "source gene": "TRBJ1-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNQPQHFGDGTRLSIL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-4*01": {
+        "source gene": "TRBJ1-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TNEKLFFGSGTQLSVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-5*01": {
+        "source gene": "TRBJ2-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QETQYFGPGTRLLVL",
+        "sequence length(aa)": 15,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-6*01": {
+        "source gene": "TRBJ2-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGANVLTFGAGSRLTVL",
+        "sequence length(aa)": 17,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-6*02": {
+        "source gene": "TRBJ1-6*02",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNSPLHFGNGTRLTVT",
+        "sequence length(aa)": 17,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-3*01": {
+        "source gene": "TRBJ1-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGNTIYFGEGSWLTVV",
+        "sequence length(aa)": 16,
+        "match source gene": "Perfect"
+    },
+    "TRBJ1-6*01": {
+        "source gene": "TRBJ1-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNSPLHFGNGTRLTVT",
+        "sequence length(aa)": 17,
+        "match source gene": "Perfect"
+    },
+    "TRBJ2-1": {
+        "source gene": "TRBJ2-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNEQFFGPGTRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-7": {
+        "source gene": "TRBJ2-7*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYEQYFGPGTRLTVT",
+        "sequence length(aa)": 15,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-4": {
+        "source gene": "TRBJ2-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "AKNIQYFGAGTRLSVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ1-2": {
+        "source gene": "TRBJ1-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGYTFGSGTRLTVV",
+        "sequence length(aa)": 15,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ1-4": {
+        "source gene": "TRBJ1-4*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "TNEKLFFGSGTQLSVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-2": {
+        "source gene": "TRBJ2-2*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGELFFGEGSRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ1-1": {
+        "source gene": "TRBJ1-1*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTEAFFGQGTRLTVV",
+        "sequence length(aa)": 15,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-3": {
+        "source gene": "TRBJ2-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "STDTQYFGPGTRLTVL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ1-5": {
+        "source gene": "TRBJ1-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNQPQHFGDGTRLSIL",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ1-3": {
+        "source gene": "TRBJ1-3*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGNTIYFGEGSWLTVV",
+        "sequence length(aa)": 16,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-6": {
+        "source gene": "TRBJ2-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGANVLTFGAGSRLTVL",
+        "sequence length(aa)": 17,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ2-5": {
+        "source gene": "TRBJ2-5*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "QETQYFGPGTRLLVL",
+        "sequence length(aa)": 15,
+        "match source gene": "Not perfect"
+    },
+    "TRBJ5-6": {
+        "source gene": "(UNK)",
+        "species": "(UNK)",
+        "amino acid sequence": "(UNK)",
+        "sequence length(aa)": "(UNK)",
+        "match source gene": "Not found"
+    },
+    "TRBJ1-6": {
+        "source gene": "TRBJ1-6*01",
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNSPLHFGNGTRLTVT",
+        "sequence length(aa)": 17,
+        "match source gene": "Not perfect"
+    }
+}
