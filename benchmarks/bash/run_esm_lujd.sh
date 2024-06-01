@@ -1,30 +1,27 @@
 #!/bin/bash
 
-level="4"
-CUDA_VISIBLE_DEVICES=0,1,3,4 python -m torch.distributed.run \
-        --nproc_per_node=4 \
+level="1"
+CUDA_VISIBLE_DEVICES=0,1,6 python -m torch.distributed.run \
+        --nproc_per_node=3 \
         --master_port=25646 \
         /home/lujd/Hi-TpH/benchmarks/train_main.py \
-        --epochs 60 \
+        --epochs 100 \
         --rand_neg True \
         --lr 8e-5 \
-        --batch_size 16 \
+        --batch_size 128 \
         --plm esm \
-        --finetune \
-        --model_path "/data/lujd/TCRmodel/level${level}/esm/" \
-        --data_path "/data/lujd/TCRdata/level${level}/" \
-        --pep_max_len 9 \
-        --tcr_max_len 121 \
+        --model_path "/data/lujd/TCRmodel/benchmarks/level${level}/esm_frozen/" \
+        --data_path "/data/lujd/TCRdata/benchmarks/level${level}/" \
+        --pep_max_len 15 \
+        --tcr_max_len 19 \
         --level "$level" \
         --early_stop 5 \
-        > "/home/lujd/Hi-TpH/benchmarks/logs/esm/level${level}.txt"
+        > "/home/lujd/Hi-TpH/benchmarks/new_logs/esm_frozen/level${level}.txt"
 
 
 # 1:  15 19
-# 2a: 43 19     # 2a_basic
-
-# 2b(old version): 9 34
-# 2b: 9 19      # 2b_basic
-
-# 3:  9 19      # 3_basic
-# 4:  9 121     # 4_basic
+# 2a: 44 19     # 2a_basic
+# 2b: 10 19     # 2b_basic
+# 3:  10 19     # 3_basic
+# 4:  10 121    # 4_basic
+        # --finetune \
