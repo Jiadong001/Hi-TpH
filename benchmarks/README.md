@@ -18,11 +18,14 @@
 ||pep_max_len|tcr_max_len|
 |:-:|:-:|:-:|
 |level-I|15|19|
-|level-IIA|43 (9+34)|19|
-|level-IIB|9|19|
-|level-III|9|19|
-|level-IV|9|121|
+|level-IIA|44 (10+34)|19|
+|level-IIB|10|19|
+|level-III|10|19|
+|level-IV|10|121|
 
+
+训练测试 data 位置：
+- Sui-3/4/5 Tang-1/2 /data/lujd/TCRdata/benchmarks
 
 
 To-do list:
