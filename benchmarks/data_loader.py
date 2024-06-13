@@ -1,14 +1,13 @@
+import os
 import random
 import numpy as np
-import torch
 import pandas as pd
-import os
 import torch
 import torch.distributed as dist
 from torch.utils.data.distributed import DistributedSampler
 import torch.utils.data as Data
 from tape import TAPETokenizer
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AlbertTokenizer
 
 
 """
@@ -16,14 +15,17 @@ Check your path of pre-trained models
 """
 #### from huggingface
 # protbert_bfd_checkpoint = "Rostlab/prot_bert_bfd"
+# protalbert_checkpoint = "Rostlab/prot_albert"
 # esm2_8b_checkpoint = "facebook/esm2_t6_8M_UR50D"
+# esm2_35m_checkpoint = "facebook/esm2_t12_35M_UR50D"
+# esm2_150m_checkpoint = "facebook/esm2_t30_150M_UR50D"
 
 #### local
-# protbert_bfd_checkpoint = "/data/luyq/models/prot_bert_bfd"
-# esm2_8b_checkpoint = "/data/luyq/models/esm"
-
 protbert_bfd_checkpoint = "/data/lujd/huggingface/hub/prot_bert_bfd"
+protalbert_checkpoint = "/data/lujd/huggingface/hub/prot_albert"
 esm2_8b_checkpoint = "/data/lujd/huggingface/hub/esm2_t6_8M_UR50D"
+esm2_35m_checkpoint = "/data/lujd/huggingface/hub/esm2_t12_35M_UR50D"
+esm2_150m_checkpoint = "/data/lujd/huggingface/hub/esm2_t30_150M_UR50D"
 
 
 class tcr_pmhc_Dataset(torch.utils.data.Dataset):
@@ -33,12 +35,11 @@ class tcr_pmhc_Dataset(torch.utils.data.Dataset):
                  pep_max_len,
                  tcr_max_len,
                  padding=True):
-        """Arguments
+        super(tcr_pmhc_Dataset, self).__init__()
+        """
         tcr_seq_list: list, size: N
         pep_seq_list: list, size: N
         """
-        super(tcr_pmhc_Dataset, self).__init__()
-
         self.tcr_seq_list = df_tcr_pmhc.tcr.to_list() 
         self.pep_seq_list = df_tcr_pmhc.pep.to_list()  
         self.labels = torch.LongTensor(df_tcr_pmhc.label.to_list())
@@ -67,11 +68,11 @@ class tcr_pmhc_Dataset(torch.utils.data.Dataset):
 
 
 class tcr_pmhc_Dataset_RN(torch.utils.data.Dataset):
-    """Some Information about pHLA_Dataset_RN"""
+    """RN: Random Negative sample generation"""
 
     def __init__(self,
                  df_tcr_pmhc,
-                 neg_tcr_candidate_list, #where stores the negative peptide sequences of tcr
+                 neg_tcr_candidate_list, # stores the negative tcr sequences for peptides
                  pep_max_len,
                  tcr_max_len,
                  padding=True):
@@ -115,13 +116,12 @@ class level_2A_Dataset(torch.utils.data.Dataset):
                  phla_max_len,
                  tcr_max_len,
                  padding=True):
-        """Arguments
+        super(level_2A_Dataset, self).__init__()
+        """
         tcr_seq_list: list, size: N
         pep_seq_list: list, size: N
         hla_seq_list: list, size: N
         """
-        super(level_2A_Dataset, self).__init__()
-
         self.tcr_seq_list = df_beta_phla.beta.to_list() 
         self.pep_seq_list = df_beta_phla.pep.to_list()  
         # self.hla_seq_list = df_beta_phla.hla.to_list()
@@ -149,7 +149,6 @@ class level_2A_Dataset(torch.utils.data.Dataset):
         if self.padding == True:
             tcr_seq = tcr_seq.ljust(self.tcr_max_len, 'X')
             phla_seq = phla_seq.ljust(self.phla_max_len, 'X')
-
         '''
         tcr_seq: str
         phla_seq: str
@@ -167,11 +166,6 @@ class level_2A_Dataset_RN(torch.utils.data.Dataset):
                  phla_max_len,
                  tcr_max_len,
                  padding=True):
-        """Arguments
-        tcr_seq_list: list, size: N
-        pep_seq_list: list, size: N
-        hla_seq_list: list, size: N
-        """
         super(level_2A_Dataset_RN, self).__init__()
 
         self.tcr_seq_list = df_beta_phla.beta.to_list() 
@@ -191,6 +185,7 @@ class level_2A_Dataset_RN(torch.utils.data.Dataset):
         self.phla_max_len = phla_max_len
 
         self.padding = padding
+        # print(self.tcr_max_len, self.phla_max_len)
 
     def __getitem__(self, index):
         pos_beta_seq, pep_seq, phla_seq = (
@@ -213,26 +208,6 @@ class level_2A_Dataset_RN(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.tcr_seq_list)
 
-class level_2B_Dataset(torch.utils.data.Dataset):
-
-    def __init__(self,
-                 df_pep_ab,
-                 pep_max_len,
-                 ab_max_len,
-                 padding=True):
-        """Arguments
-        tcr_seq_list: list, size: N
-        pep_seq_list: list, size: N
-        hla_seq_list: list, size: N
-        """
-        super(level_2B_Dataset, self).__init__()
-
-        self.tcr_seq_list = df_pep_ab.ab.to_list() 
-        self.pep_seq_list = df_pep_ab.pep.to_list()  
-        self.labels = torch.LongTensor(df_pep_ab.label.to_list())
-        self.tcr_max_len = ab_max_len
-        self.pep_max_len = pep_max_len
-
 # class level_2B_Dataset_RN(torch.utils.data.Dataset):
 
 #     def __init__(self,
@@ -241,11 +216,6 @@ class level_2B_Dataset(torch.utils.data.Dataset):
 #                  pep_max_len,
 #                  ab_max_len,
 #                  padding=True):
-#         """Arguments
-#         tcr_seq_list: list, size: N
-#         pep_seq_list: list, size: N
-#         hla_seq_list: list, size: N
-#         """
 #         super(level_2B_Dataset_RN, self).__init__()
 
 #         self.tcr_seq_list = df_pep_ab.ab.to_list() 
@@ -288,11 +258,6 @@ class level_2B_Dataset_RN(torch.utils.data.Dataset):
                  pep_max_len,
                  ab_max_len,
                  padding=True):
-        """Arguments
-        tcr_seq_list: list, size: N
-        pep_seq_list: list, size: N
-        hla_seq_list: list, size: N
-        """
         super(level_2B_Dataset_RN, self).__init__()
 
         self.pep_seq_list = df_pep_ab.pep.to_list()
@@ -401,7 +366,9 @@ class level_3_Dataset_RN(torch.utils.data.Dataset):
             pos_tcr_seq = ''.join([s.ljust(self.ab_max_len, 'X') for s in pos_tcr_seq.split('/')])
             neg_tcr_seq = ''.join([s.ljust(self.ab_max_len, 'X') for s in neg_tcr_seq.split('/')])
 
-        # ''.join('a/b'.split('/')).ljust(10, 'x')      # cat then pad
+        ### cat then pad for tcr
+        # pos_tcr_seq = ''.join(pos_tcr_seq.split('/')).ljust(self.ab_max_len*len(pos_tcr_seq.split('/')), 'X')
+        # neg_tcr_seq = ''.join(neg_tcr_seq.split('/')).ljust(self.ab_max_len*len(neg_tcr_seq.split('/')), 'X')
 
         if self.print_tag == 1:     # print once
             print(phla_seq, pos_tcr_seq, neg_tcr_seq)
@@ -414,8 +381,8 @@ class level_3_Dataset_RN(torch.utils.data.Dataset):
 
 def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_size = '8M'):
     '''
-    plm_type : "tape" "protbert" "esm"
-    plm_input_type: "sep"
+    plm_type : "tape" "protbert/protalbert" "esm"
+    plm_input_type: "sep", "cat"
     '''
 
     tcr_pep_inputs = []  # the input of model is token
@@ -430,9 +397,13 @@ def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_
                                   3)  # insert 3(<sep>) in position len(hla)+1
             tcr_pep_inputs.append(token)
 
-    elif plm_type == 'protbert':
-        tokenizer = AutoTokenizer.from_pretrained(protbert_bfd_checkpoint,
-                                                  do_lower_case=False)
+    elif plm_type in ['protbert', 'protalbert']:
+        if plm_type == 'protbert':
+            tokenizer = AutoTokenizer.from_pretrained(protbert_bfd_checkpoint,
+                                                    do_lower_case=False)
+        elif plm_type == 'protalbert':
+            tokenizer = AlbertTokenizer.from_pretrained(protalbert_checkpoint,
+                                                    do_lower_case=False)
         for tcr, pep in zip(tcr_seq_list, pep_seq_list):
             tcr_pmhc = tcr + pep
             tcr_pmhc = ' '.join(tcr_pmhc)
@@ -442,9 +413,13 @@ def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_
                                   3)  # insert 3(<sep>) in position len(hla)+1
             tcr_pep_inputs.append(token)
 
-    elif plm_type == 'esm':
-        if esm_size == '8M':
+    elif "esm" in plm_type:
+        if plm_type == 'esm':                       # default: 8M
             tokenizer = AutoTokenizer.from_pretrained(esm2_8b_checkpoint)
+        elif plm_type.split('-')[-1] == '35M':      # actually same as 8M
+            tokenizer = AutoTokenizer.from_pretrained(esm2_35m_checkpoint)
+        elif plm_type.split('-')[-1] == '150M':     # actually same as 8M
+            tokenizer = AutoTokenizer.from_pretrained(esm2_150m_checkpoint)
         for tcr, pep in zip(tcr_seq_list, pep_seq_list):
             tcr_pmhc = tcr + pep
             token = tokenizer.encode(tcr_pmhc)  # array
@@ -472,7 +447,20 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
     test_df = pd.read_csv(os.path.join(data_path,"test_data_fold{}.csv".format(fold)))
 
     tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools.npy"), allow_pickle=True,).tolist()  ##ranking???
-    if "2a" in level:
+
+    if "1" in level:
+        if rand_neg:
+            train_pos_df = train_df[train_df.label == 1]  #select the positive samples
+            valid_pos_df = valid_df[valid_df.label == 1]
+            test_pos_df = test_df[test_df.label == 1]
+            val_dataset = tcr_pmhc_Dataset_RN(valid_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
+            train_dataset = tcr_pmhc_Dataset_RN(train_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
+            test_dataset = tcr_pmhc_Dataset_RN(test_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
+        else:
+            train_dataset = tcr_pmhc_Dataset(train_df, pep_max_len, tcr_max_len)
+            val_dataset = tcr_pmhc_Dataset(valid_df, pep_max_len, tcr_max_len)
+            test_dataset = tcr_pmhc_Dataset(test_df, pep_max_len, tcr_max_len)
+    elif "2a" in level:
         if rand_neg:
             train_pos_df = train_df[train_df.label == 1]  #select the positive samples
             valid_pos_df = valid_df[valid_df.label == 1]
@@ -480,7 +468,6 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
             val_dataset = level_2A_Dataset_RN(valid_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             train_dataset = level_2A_Dataset_RN(train_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             test_dataset = level_2A_Dataset_RN(test_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-        
         else:
             train_dataset = level_2A_Dataset(train_df, pep_max_len, tcr_max_len)
             val_dataset = level_2A_Dataset(valid_df, pep_max_len, tcr_max_len)
@@ -493,24 +480,6 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
             val_dataset = level_2B_Dataset_RN(valid_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             train_dataset = level_2B_Dataset_RN(train_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             test_dataset = level_2B_Dataset_RN(test_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-        
-        else:
-            train_dataset = level_2B_Dataset(train_df, pep_max_len, tcr_max_len)
-            val_dataset = level_2B_Dataset(valid_df, pep_max_len, tcr_max_len)
-            test_dataset = level_2B_Dataset(test_df, pep_max_len, tcr_max_len)
-    elif "1" in level:
-        if rand_neg:
-            train_pos_df = train_df[train_df.label == 1]  #select the positive samples
-            valid_pos_df = valid_df[valid_df.label == 1]
-            test_pos_df = test_df[test_df.label == 1]
-            val_dataset = tcr_pmhc_Dataset_RN(valid_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-            train_dataset = tcr_pmhc_Dataset_RN(train_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-            test_dataset = tcr_pmhc_Dataset_RN(test_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-        else:
-            
-            train_dataset = tcr_pmhc_Dataset(train_df, pep_max_len, tcr_max_len)
-            val_dataset = tcr_pmhc_Dataset(valid_df, pep_max_len, tcr_max_len)
-            test_dataset = tcr_pmhc_Dataset(test_df, pep_max_len, tcr_max_len)
     elif ("3" in level) or ("4" in level):
         if rand_neg:
             train_pos_df = train_df[train_df.label == 1]  #select the positive samples
@@ -519,7 +488,6 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
             val_dataset = level_3_Dataset_RN(valid_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             train_dataset = level_3_Dataset_RN(train_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
             test_dataset = level_3_Dataset_RN(test_pos_df, tcr2candidates, pep_max_len, tcr_max_len)
-
 
     train_sampler = DistributedSampler(train_dataset, shuffle=True)
     val_sampler = DistributedSampler(val_dataset, shuffle=False)

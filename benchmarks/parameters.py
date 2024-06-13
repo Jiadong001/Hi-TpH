@@ -26,7 +26,8 @@ def read_arguments():
                                                       "2a", "2a_basic", 
                                                       "2b", "2b_basic", 
                                                       "3", "3_basic", 
-                                                      "4", "4_basic"],
+                                                      "4", "4_basic",
+                                                      "4_one","4_twoa","4_twob","4_three","4_four"],
                         default="1")
 
     # Do not change the fold
@@ -35,7 +36,8 @@ def read_arguments():
     # -----------------Parameters for Model Architectures-----------------------
     parser.add_argument("--plm",
                         type=str,
-                        choices=["tape", "protbert", "esm", "baseline_mlp"],
+                        choices=["tape", "protbert", "esm", "esm-150M", "esm-35M",
+                                 "protalbert", "baseline_mlp", "baseline_rnn"],
                         default="tape")
     parser.add_argument("--plm_input",
                         type=str,

@@ -16,7 +16,7 @@ import torch
 import torch.distributed as dist
 import torch.nn as nn
 from projection_head import MLP
-from plm_models import TAPE, ProtBert , ESM
+from plm_models import TAPE, ProtBert, ESM, ProtAlBert
 from sklearn.metrics import average_precision_score, roc_auc_score
 from tape import ProteinBertConfig
 from torch.nn.parallel import DistributedDataParallel
@@ -26,7 +26,7 @@ from train import model_train, model_train_step, make_validation
 from data_loader import data_loader
 from transformers import AutoModel, AutoTokenizer
 from parameters import read_arguments
-from baseline_models import baseline_mlp
+from baseline_models import baseline_mlp, baseline_rnn
 
 def set_seed(seed):
     random.seed(seed)
@@ -41,6 +41,7 @@ def seed_worker(worker_id):
 
 def main():
     args = read_arguments()
+    print(args)
 
     data_path = args.data_path
 
@@ -71,18 +72,26 @@ def main():
     #model
     #pdb.set_trace()
     if args.finetune:
-        print("\n\n**Start finetuning protein language models\n\n")
+        print(f"\n\n**Start finetuning protein language models [{args.plm}]\n\n")
         if args.plm == "tape":
-            config = ProteinBertConfig.from_pretrained('bert-base', cache_dir=args.plm_path)
+            config = ProteinBertConfig.from_pretrained('bert-base')
             model = TAPE(head_type=args.head_type, plm_output=args.plm_output)
         elif args.plm == "protbert":
             model = ProtBert(head_type=args.head_type, plm_output=args.plm_output)
-        elif args.plm =="esm":
-            model = ESM(head_type=args.head_type, plm_output=args.plm_output)
+        elif "esm" in args.plm:
+            if args.plm == "esm":       # default: 8M
+                model = ESM(head_type=args.head_type, plm_output=args.plm_output,
+                        esm_size='8M')
+            else:
+                model = ESM(head_type=args.head_type, plm_output=args.plm_output,
+                        esm_size=args.plm.split('-')[-1])
+        elif args.plm =="protalbert":
+            model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output)
 
         model.to(device)
         # Load checkpoint if it exists
         if args.checkpoint_file:
+            print(f"Load model parameters from {args.checkpoint_file}")
             checkpoint = torch.load(args.checkpoint_file)
             pattern = r"_ep(\d+)_"
             match = re.search(pattern, args.checkpoint_file)
@@ -108,30 +117,46 @@ def main():
     else:
         print("\n\n**Train the projection head only, with frozen PLM\n\n")
         if args.plm == "tape":
-            config = ProteinBertConfig.from_pretrained('bert-base', cache_dir=args.plm_path)
+            config = ProteinBertConfig.from_pretrained('bert-base')
             model = TAPE(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False)
         elif args.plm == "protbert":
             model = ProtBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False)
-        elif args.plm =="esm":
-            model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False)
-        elif args.plm == "baseline_mlp":
-            if ("2b" == args.level) or ("3" == args.level) or ("4" == args.level):
+        elif "esm" in args.plm:
+            if args.plm == "esm":       # default: 8M
+                model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False,
+                        esm_size='8M')
+            else:
+                model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False,
+                        esm_size=args.plm.split('-')[-1])
+        elif args.plm =="protalbert":
+            model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False)
+        elif "baseline" in args.plm:
+            if ("2b" == args.level) or ("3" == args.level) or ("4" == args.level):      #  or (args.level in ["4_twob", "4_three", "4_four"])
                 # hla_max_length = 34
-                hla_max_length = 34 if "2b" != args.level else 0        # 2b: no hla
+                hla_max_length = 34 if "2b" != args.level else 0        # 2b: no hla    #  (args.level in ["4_twob", "2b"])
                 input_seq_max_len = (args.tcr_max_len*2+args.pep_max_len+2+hla_max_length 
                                     if args.plm_input == "cat" 
-                                    else args.tcr_max_len+args.pep_max_len+3)
+                                    else args.tcr_max_len+args.pep_max_len+3+hla_max_length)
             else:
                 input_seq_max_len = (args.tcr_max_len+args.pep_max_len+2 
-                                if args.plm_input == "cat" 
-                                else args.tcr_max_len+args.pep_max_len+3)
+                                    if args.plm_input == "cat" 
+                                    else args.tcr_max_len+args.pep_max_len+3)
             print(input_seq_max_len)
-            model = baseline_mlp(emb_dim=32, seq_max_len=input_seq_max_len)
+
+            if args.plm == "baseline_mlp":
+                model = baseline_mlp(emb_dim=32, seq_max_len=input_seq_max_len)
+            elif args.plm == "baseline_rnn":
+                model = baseline_rnn(emb_dim=32, hidden_size=100, output_size=2, rnn_type="lstm")
+            else:
+                raise ValueError(f"No baseline model named {args.plm}")
+            total_params = sum([param.nelement() for param in model.parameters() if param.requires_grad])
+            print(">>> Total params: {}".format(total_params))
             print(model)
 
         model.to(device)
         # Load checkpoint if it exists
         if args.checkpoint_file:
+            print(f"Load model parameters from {args.checkpoint_file}")
             checkpoint = torch.load(args.checkpoint_file)
             pattern = r"_ep(\d+)_"
             match = re.search(pattern, args.checkpoint_file)
@@ -156,6 +181,7 @@ def main():
         # Train the projection head only, with frozen PLM
         
     #*******************testing************************   
+    # Test the last epoch
     print("\n\n**Testing\n\n")
     metrics_name = [
         "roc_auc", "accuracy", "mcc", "f1", "sensitivity", "specificity",
@@ -166,12 +192,16 @@ def main():
     for test_time in range(5):
         dist.barrier()
         ys_test, loss_test, metrics_test = make_validation(args, model, test_loader, device, local_rank)
-        performance_test_df = pd.DataFrame()
-        performance_test_df = pd.concat([
-                performance_test_df,
-                pd.DataFrame([list(metrics_test)],
-                             columns=metrics_name)
-            ])
+        if test_time == 0:
+            performance_test_df = pd.DataFrame([list(metrics_test)],
+                                            columns=metrics_name)
+        else:
+            performance_test_df = pd.concat([
+                    performance_test_df,
+                    pd.DataFrame([list(metrics_test)],
+                                columns=metrics_name)
+                ])
+        # print(performance_test_df)
         test_loss_list.append(loss_test)
         test_metrics_avg.append(sum(metrics_test[:4]) / 4)
 

@@ -38,7 +38,7 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
         args.threshold, args.rand_neg)
     
     # set protbert tokenizer for baseline model
-    plm_type = "protbert" if plm_type == "baseline_mlp" else plm_type
+    plm_type = "protbert" if "baseline" in plm_type else plm_type
     
     train_sampler.set_epoch(seed + epoch - 1)
 
@@ -103,7 +103,7 @@ def make_validation(args, model, loader, device, local_rank):
     rand_neg, fold, plm_type, plm_input_type, threshold = args.rand_neg, args.fold, args.plm, args.plm_input, args.threshold
 
     # set protbert tokenizer for baseline model
-    plm_type = "protbert" if plm_type == "baseline_mlp" else plm_type
+    plm_type = "protbert" if "baseline" in plm_type else plm_type
 
     model.eval()
     criterion = nn.CrossEntropyLoss()
@@ -280,7 +280,7 @@ def model_train(args,
                 else:
                     new_model_name = f"plm_{args.plm}_WithoutFinetune_B{args.batch_size}_LR{args.lr}_seq_{args.plm_input}_fold{args.fold}_ep{ep_best}_{formatted_today}.pkl"
                 print("*****Path saver: ", new_model_name)
-                if args.plm == "baseline_mlp":          # 'baseline_mlp' object has no attribute 'module'
+                if "baseline" in args.plm:          # 'baseline_mlp' object has no attribute 'module'
                     torch.save(model.eval().state_dict(),
                             args.model_path + new_model_name)
                 else:
@@ -300,5 +300,3 @@ def model_train(args,
                 f"\nGPU{local_rank}-EARLY STOP TRIGGERED, Training totally used {time_train:.2f}s"
             )
             break
-
-        

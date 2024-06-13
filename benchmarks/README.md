@@ -1,19 +1,23 @@
-注意事项：
+# Run Benchmarks
 
-- 将以下文件中的路径改为自己的：
-  - `bash` 脚本（都放在了 [`./bash/`](./bash/) 文件夹）中的各种 path
-  - `data_loader.py` 中的 ``protbert_bfd_checkpoint`` 和 ``esm2_8b_checkpoint``
-  - `plm_models.py` 中的 ``protbert_bfd_checkpoint`` 和 ``esm2_8b_checkpoint``
+Prepare benchmark data first:
+- see `prepare_benchmark_data.ipynb`
 
-- 如果 **finetune**，需要在 `bash` 脚本中**加一行参数** ``--finetune``；如果不 finetune，去掉。
-  - 这与之前代码有所不同
+Train models using benchmark data of different levels:
 
-- 在 `train_main.py` 结束后还要再用 `test_main.py` 再测试一次
-  - 因为 `train_main.py` 的测试只针对最后一轮模型，而不是最优模型
-  - 具体方式参考 [`./bash/test_baseline.sh`](./bash/test_baseline.sh)
+- First, change the path in the following file to your own：
+  - `bash` files in [`./bash/`](./bash/) dir: ``**_path``, e.g., ``data_path``.
+  - `data_loader.py` and `plm_models.py`: ``**_checkpoint``, e.g., ``esm2_8b_checkpoint``.
+
+- See `./bash/train_**.sh` to run `train_main.py` for traing models.
+  - If **finetune**, you need to **add a line to the `bash` script** with the parameter ``--finetune``; if not finetune, remove it.
+
+- After `train_main.py`, you have to test the model again with `test_main.py`.
+  - Because the test in `train_main.py` is only for the last epoch of models, not the best epoch.
+  - See `./bash/test_**.sh` to run `test_main.py`
 
 
-规定下不同 level 的 max_len：
+Define the max_len for different levels.：
 
 ||pep_max_len|tcr_max_len|
 |:-:|:-:|:-:|
@@ -24,10 +28,6 @@
 |level-IV|10|121|
 
 
-训练测试 data 位置：
-- Sui-3/4/5 Tang-1/2 /data/lujd/TCRdata/benchmarks
-
-
 To-do list:
 
-- [ ] 补充 `data_loader.py` 的 NoRN Dataset class
+- [ ] Add NoRN Dataset class in `data_loader.py`.

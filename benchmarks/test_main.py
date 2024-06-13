@@ -4,13 +4,13 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.distributed as dist
-from plm_models import TAPE, ProtBert, ESM
+from plm_models import TAPE, ProtBert, ESM, ProtAlBert
 from tape import ProteinBertConfig
 from torch.nn.parallel import DistributedDataParallel
 from train import make_validation
 from data_loader import data_loader
 from parameters import read_arguments
-from baseline_models import baseline_mlp
+from baseline_models import baseline_mlp, baseline_rnn
 
 def set_seed(seed):
     random.seed(seed)
@@ -25,6 +25,7 @@ def seed_worker(worker_id):
 
 def main():
     args = read_arguments()
+    print(args)
 
     data_path = args.data_path
 
@@ -59,32 +60,51 @@ def main():
         finetune_plm_tag = True
     
     if "tape" in args.checkpoint_file.split('/')[-1]:
-        config = ProteinBertConfig.from_pretrained('bert-base', cache_dir=args.plm_path)
+        config = ProteinBertConfig.from_pretrained('bert-base')
         model = TAPE(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
         args.plm = "tape"
     elif "protbert" in args.checkpoint_file.split('/')[-1]:
         model = ProtBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
         args.plm = "protbert"
     elif "esm" in args.checkpoint_file.split('/')[-1]:
-        model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
-        args.plm = "esm"
-    elif "baseline_mlp" in args.checkpoint_file.split('/')[-1]:
+        if "esm-150M" in args.checkpoint_file.split('/')[-1]:
+            model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag,
+                    esm_size='150M')
+            args.plm = "esm-150M"
+        elif "esm-35M" in args.checkpoint_file.split('/')[-1]:
+            model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag,
+                    esm_size='35M')
+            args.plm = "esm-35M"
+        else:
+            model = ESM(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag,
+                    esm_size='8M')
+            args.plm = "esm"
+        print(args.plm)
+    elif "protalbert" in args.checkpoint_file.split('/')[-1]:
+        model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
+        args.plm = "protalbert"
+    elif "baseline" in args.checkpoint_file.split('/')[-1]:
         if ("2b" == args.level) or ("3" == args.level) or ("4" == args.level):
             # hla_max_length = 34
             hla_max_length = 34 if "2b" != args.level else 0        # 2b: no hla
             input_seq_max_len = (args.tcr_max_len*2+args.pep_max_len+2+hla_max_length 
                                 if args.plm_input == "cat" 
-                                else args.tcr_max_len+args.pep_max_len+3)
+                                else args.tcr_max_len+args.pep_max_len+3+hla_max_length)
         else:
             input_seq_max_len = (args.tcr_max_len+args.pep_max_len+2 
                             if args.plm_input == "cat" 
                             else args.tcr_max_len+args.pep_max_len+3)
         print(input_seq_max_len)
-        model = baseline_mlp(emb_dim=32, seq_max_len=input_seq_max_len)
-        args.plm = "baseline_mlp"
+
+        if "baseline_mlp" in args.checkpoint_file.split('/')[-1]:
+            model = baseline_mlp(emb_dim=32, seq_max_len=input_seq_max_len)
+            args.plm = "baseline_mlp"
+        elif "baseline_rnn" in args.checkpoint_file.split('/')[-1]:
+            model = baseline_rnn(emb_dim=32, hidden_size=100, output_size=2, rnn_type="lstm")
+            args.plm = "baseline_rnn"
         print(model)
     else:
-        raise ValueError(f"{args.checkpoint_file.split('/')[-1]} does not belong to [tape, protbert, esm, baseline_mlp]!")
+        raise ValueError(f"{args.checkpoint_file.split('/')[-1]} does not belong to [tape, protbert/protalbert, esm, baseline_mlp/rnn]!")
 
     print(f"Checkpoint[{args.checkpoint_file.split('/')[-1]}] is a {args.plm}")
     model.to(device)
@@ -92,6 +112,7 @@ def main():
     # Load checkpoint if it exists
     checkpoint_path = os.path.join(args.model_path, args.checkpoint_file.split('/')[-1])
     if os.path.exists(checkpoint_path):
+        print(f"Load model parameters from {checkpoint_path}")
         checkpoint = torch.load(checkpoint_path)
         model.load_state_dict(checkpoint)
     else:
@@ -106,6 +127,7 @@ def main():
         )
 
     #*******************testing************************   
+    # Test the best epoch (with best valid metrics)
     print("\n\n**Testing\n\n")
     metrics_name = [
         "roc_auc", "accuracy", "mcc", "f1", "sensitivity", "specificity",
@@ -116,12 +138,16 @@ def main():
     for test_time in range(5):
         dist.barrier()
         ys_test, loss_test, metrics_test = make_validation(args, model, test_loader, device, local_rank)
-        performance_test_df = pd.DataFrame()
-        performance_test_df = pd.concat([
-                performance_test_df,
-                pd.DataFrame([list(metrics_test)],
-                             columns=metrics_name)
-            ])
+        if test_time == 0:
+            performance_test_df = pd.DataFrame([list(metrics_test)],
+                                            columns=metrics_name)
+        else:
+            performance_test_df = pd.concat([
+                    performance_test_df,
+                    pd.DataFrame([list(metrics_test)],
+                                columns=metrics_name)
+                ])
+        # print(performance_test_df)
         test_loss_list.append(loss_test)
         test_metrics_avg.append(sum(metrics_test[:4]) / 4)
 
