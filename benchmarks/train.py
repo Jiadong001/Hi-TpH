@@ -11,31 +11,17 @@ from tqdm import tqdm
 import torch.distributed as dist
 import torch.nn as nn
 import torch.optim as optim
-import torch.utils.data as Data
-from data_loader import tcr_pmhc_Dataset, tcr_pmhc_Dataset_RN, seq2token, data_loader
-from torch.utils.data.distributed import DistributedSampler
+from data_loader import seq2token
 
-
-# Set Seed
-seed = 42
-# Python & Numpy seed
-random.seed(seed)
-np.random.seed(seed)
-# PyTorch seed
-torch.manual_seed(seed)  # default generator
-torch.cuda.manual_seed(seed)
-torch.cuda.manual_seed_all(seed)
-# CUDNN seed
-torch.backends.cudnn.benchmark = False
-torch.backends.cudnn.deterministic = True
 
 def transfer(y_prob, threshold=0.5):
     return np.array([[0, 1][x > threshold] for x in y_prob])
 
+
 def model_train_step(args, train_sampler, train_loader, model, epoch, device, local_rank):
-    fold, plm_type, plm_input_type, epochs, l_r, threshold, rand_neg = (
+    fold, plm_type, plm_input_type, epochs, l_r, threshold, rand_neg, seed = (
         args.fold, args.plm, args.plm_input, args.epochs, args.lr,
-        args.threshold, args.rand_neg)
+        args.threshold, args.rand_neg, args.seed)
     
     # set protbert tokenizer for baseline model
     plm_type = "protbert" if "baseline" in plm_type else plm_type
@@ -44,8 +30,6 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=l_r)
-    # optimizer = optim.AdamW(model.parameters(), lr=l_r)
-    # print(optimizer)
 
     time_train_ep = 0
     model.train()
@@ -99,6 +83,7 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
 
     return ys_train, loss_train_list, metrics_train, time_train_ep
 
+
 def make_validation(args, model, loader, device, local_rank):
     rand_neg, fold, plm_type, plm_input_type, threshold = args.rand_neg, args.fold, args.plm, args.plm_input, args.threshold
 
@@ -113,9 +98,14 @@ def make_validation(args, model, loader, device, local_rank):
         pbar_desc = f"GPU{local_rank} VALIDATION {'without' if not rand_neg else 'with'} random negative samples"
         pbar = tqdm(loader, desc=pbar_desc)
 
+        print_tag = 1
         for batch in pbar:
             if not rand_neg:
                 tcr_seq_list, pep_seq_list, val_labels = batch
+                if print_tag:
+                    print(tcr_seq_list[:2])
+                    print(pep_seq_list[:2])
+                    print_tag = 0
                 tcr_pmhc_tokens = seq2token(tcr_seq_list, pep_seq_list, plm_type,
                                         plm_input_type, device)
             else:
@@ -157,6 +147,7 @@ def make_validation(args, model, loader, device, local_rank):
 
     return ys_val, ave_loss_val, metrics_val
 
+
 def model_train(args,
                 train_sampler,
                 train_loader,
@@ -170,6 +161,7 @@ def model_train(args,
 
     if not args.rand_neg:
         validation_times = 1
+        print(f"validation_time: {validation_times}")
 
     valid_best, ep_best = -1, -1
     time_train = 0
@@ -181,7 +173,6 @@ def model_train(args,
 
     epoch, end_epoch = start_epoch, args.epochs
 
-    train_sampler.set_epoch(seed + epoch - 1)
     while epoch < end_epoch:
         epoch += 1
 

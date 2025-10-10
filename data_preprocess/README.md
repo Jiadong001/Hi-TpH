@@ -35,6 +35,8 @@ Split collected into different levels
 |CDR3ab VJgene+HLA||     |✅|✅||||||||✅|
 |CDR123ab VJgene+HLA||     ||| |✅|
 |Vab + HLA||||||||||✅|
+|||
+|License|||License for Non-Commercial Use of TCRAI code|MIT license|||GPL-2.0 license|GPL-3.0 license|MIT license|Apache-2.0 license|MIT License|
 - Peptides are included in the first colums by default.
 
 

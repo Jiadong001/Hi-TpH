@@ -35,6 +35,7 @@ def performances(y_true, y_pred, y_prob, print_=True):
         f1 = np.nan
 
     roc_auc = roc_auc_score(y_true, y_prob)
+    # roc_auc = roc_auc_score(y_true, y_prob, max_fpr=0.1)
     prec, reca, _ = precision_recall_curve(y_true, y_prob)
     aupr = auc(reca, prec)
 

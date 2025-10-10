@@ -2,6 +2,32 @@ import os
 import matplotlib.pyplot as plt
 
 
+# Reconstruct TCR variable sequence
+def reconstruct_vseq(data):
+    """
+    Input: "vgene_seq-cdr3-jgene_seq"
+    Return: 
+        - If succeed, return "reconstructed sequence"
+        - If fail, return "(UNK)"
+    """
+    vgene_seq = data.split('-')[0]
+    cdr3 = data.split('-')[1]
+    jgene_seq = data.split('-')[2]
+
+    # cut vgene seq, eg. CA: ..YL|CAVT
+    cdr3_start = cdr3[:2]
+    vgene_seq_end = vgene_seq.rfind(cdr3_start)                         # last position
+
+    # cut jgene seq, eg. LQ: GKLQ|FG..
+    cdr3_end = cdr3[-2:]
+    jgene_seq_start = jgene_seq.find(cdr3_end) + len(cdr3_end)          # first position + 2    
+
+    if (vgene_seq_end != -1) & (jgene_seq_start != (-1+len(cdr3_end))): # + len(cdr3_end) !!!
+        return vgene_seq[:vgene_seq_end] + cdr3 + jgene_seq[jgene_seq_start:]
+    else:
+        return '(UNK)'
+
+
 def save_csv(df, path, filename):
     if not os.path.exists(path):
         os.makedirs(path)

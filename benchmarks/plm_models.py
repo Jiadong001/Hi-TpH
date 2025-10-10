@@ -1,10 +1,8 @@
-import numpy as np
 import torch
 import torch.nn as nn
-from projection_head import MLP
-from tape import ProteinBertAbstractModel, ProteinBertModel, TAPETokenizer
-from torch.nn import functional as F
-from transformers import AutoModel, AutoTokenizer
+from baseline_models import MLP
+from tape import ProteinBertModel
+from transformers import AutoModel
 
 
 """
@@ -28,8 +26,6 @@ esm2_150m_checkpoint = "/data/lujd/huggingface/hub/esm2_t30_150M_UR50D"
 '''
 TAPE model
 '''
-
-
 class TAPE(nn.Module):
 
     def __init__(self, head_type='3MLP', plm_output='mean', finetune_plm = True):
@@ -64,8 +60,6 @@ class TAPE(nn.Module):
 '''
 ProteinBert model
 '''
-
-
 class ProtBert(nn.Module):
 
     def __init__(self, head_type='3MLP', plm_output='mean', finetune_plm = True):
@@ -104,8 +98,6 @@ class ProtBert(nn.Module):
 '''
 ProtAlBert model
 '''
-
-
 class ProtAlBert(nn.Module):
 
     def __init__(self, head_type='3MLP', plm_output='mean', finetune_plm=True):
@@ -140,11 +132,11 @@ class ProtAlBert(nn.Module):
 
 
 '''
-ESM family
+ESM2 family
 '''
-class ESM(nn.Module): 
+class ESM2(nn.Module): 
     def __init__(self, head_type='3MLP', plm_output='mean', finetune_plm = True, esm_size = '8M'):
-        super(ESM, self).__init__()
+        super(ESM2, self).__init__()
         if esm_size == '8M':
             self.checkpoint = esm2_8b_checkpoint
             self.hidden_size = 320
@@ -161,7 +153,7 @@ class ESM(nn.Module):
         # elif esm_size == '15B':
         #     self.checkpoint = "facebook/esm2_t48_15B_UR50D"
         else:
-            raise ValueError(f"Wrong size of ESM: {esm_size}")
+            raise ValueError(f"Wrong size of ESM2: {esm_size}")
         self.esm = AutoModel.from_pretrained(self.checkpoint)
         self.head_type = head_type
         self.plm_output = plm_output
