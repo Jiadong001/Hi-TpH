@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.distributed as dist
-from plm_models import TAPE, ProtBert, ESM2, ProtAlBert
+from plm_models import TAPE, ProtBert, ESM2, ProtAlBert, load_tokenizer
 from tape import ProteinBertConfig
 from torch.nn.parallel import DistributedDataParallel
 from train import make_validation
@@ -87,7 +87,7 @@ def main():
         model = ProtBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
         args.plm = "protbert"
     elif "esm2" in args.checkpoint_file.split('/')[-1]:
-        esm_sizes = ['8M', '35M', '150M', '650M']
+        esm_sizes = ['8M', '35M', '150M', '650M', '3B']
         for esm_size in esm_sizes:
             if f"esm2-{esm_size}" in args.checkpoint_file.split('/')[-1]:
                 model = ESM2(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag,
@@ -122,6 +122,13 @@ def main():
     print(f"Checkpoint[{args.checkpoint_file.split('/')[-1]}] is a {args.plm}")
     model.to(device)
 
+    # load tokenizer
+    if "baseline" in args.plm:
+        # set protbert tokenizer for baseline model
+        tokenizer = load_tokenizer('protbert')
+    else:
+        tokenizer = load_tokenizer(args.plm)
+    
     # Load checkpoint if it exists
     checkpoint_path = os.path.join(args.model_path, args.checkpoint_file.split('/')[-1])
     if os.path.exists(checkpoint_path):
@@ -158,7 +165,7 @@ def main():
     test_metrics_avg, test_loss_list = [], []
     for test_time in range(test_times):
         dist.barrier()
-        ys_test, loss_test, metrics_test = make_validation(args, model, test_loader, device, local_rank)
+        ys_test, loss_test, metrics_test = make_validation(args, model, tokenizer, test_loader, device, local_rank)
         if test_time == 0:
             performance_test_df = pd.DataFrame([list(metrics_test)],
                                             columns=metrics_name)
@@ -177,9 +184,10 @@ def main():
         ), cur_epoch_performance_df.accuracy.mean(
         ), cur_epoch_performance_df.mcc.mean(
         ), cur_epoch_performance_df.f1.mean()
+    aupr_avg = cur_epoch_performance_df.aupr.mean()
 
     print(
-            f"GPU{local_rank} test :  AUC_avg = {AUC_avg:.6f}, ACC_avg = {ACC_avg:.6f}, MCC_avg = {MCC_avg:.6f}, F1-avg = {F1_avg:.6f}"
+            f"GPU{local_rank} test:  AUC_avg = {AUC_avg:.6f}, AUPRC_avg = {aupr_avg:.6f}, ACC_avg = {ACC_avg:.6f}, MCC_avg = {MCC_avg:.6f}, F1-avg = {F1_avg:.6f}"
         )
 
     ave_loss_val = sum(test_loss_list)/len(test_loss_list)
@@ -210,7 +218,7 @@ def main():
         test_metrics_avg, test_loss_list = [], []
         for test_time in range(test_times):
             dist.barrier()
-            ys_test, loss_test, metrics_test = make_validation(args, model, external_loader, device, local_rank)
+            ys_test, loss_test, metrics_test = make_validation(args, model, tokenizer, external_loader, device, local_rank)
             if test_time == 0:
                 performance_test_df = pd.DataFrame([list(metrics_test)],
                                                 columns=metrics_name)
@@ -229,9 +237,10 @@ def main():
             ), cur_epoch_performance_df.accuracy.mean(
             ), cur_epoch_performance_df.mcc.mean(
             ), cur_epoch_performance_df.f1.mean()
+        aupr_avg = cur_epoch_performance_df.aupr.mean()
 
         print(
-                f"GPU{local_rank} external:  AUC_avg = {AUC_avg:.6f}, ACC_avg = {ACC_avg:.6f}, MCC_avg = {MCC_avg:.6f}, F1-avg = {F1_avg:.6f}"
+                f"GPU{local_rank} external: AUC_avg = {AUC_avg:.6f}, AUPRC_avg = {aupr_avg:.6f}, ACC_avg = {ACC_avg:.6f}, MCC_avg = {MCC_avg:.6f}, F1-avg = {F1_avg:.6f}"
             )
 
         ave_loss_val = sum(test_loss_list)/len(test_loss_list)
@@ -258,7 +267,7 @@ def main():
 
 
 if __name__ == "__main__":
-    print("\n"+"="*30)
+    print("="*30)
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
     print("="*30)
     main()

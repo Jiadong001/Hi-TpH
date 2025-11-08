@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import torch.distributed as dist
 import torch.nn as nn
-from plm_models import TAPE, ProtBert, ESM2, ProtAlBert
+from plm_models import TAPE, ProtBert, ESM2, ProtAlBert, AMPLIFY, load_tokenizer
 from tape import ProteinBertConfig
 from torch.nn.parallel import DistributedDataParallel
 from torch.utils.data.distributed import DistributedSampler
@@ -75,6 +75,13 @@ def main():
         if external_loader != None:
             print("Number of samples in external_loader: ", len(external_loader.dataset))
 
+    #tokenizer
+    if "baseline" in args.plm:
+        # set protbert tokenizer for baseline model
+        tokenizer = load_tokenizer('protbert')
+    else:
+        tokenizer = load_tokenizer(args.plm)
+
     #model
     #pdb.set_trace()
     if args.finetune:
@@ -89,6 +96,9 @@ def main():
                         esm_size=args.plm.split('-')[-1])
         elif args.plm =="protalbert":
             model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output)
+        elif "AMPLIFY" in args.plm:
+            model = AMPLIFY(head_type=args.head_type, plm_output=args.plm_output,
+                        amplify_type=args.plm)
 
         model.to(device)
         # Load checkpoint if it exists
@@ -112,7 +122,7 @@ def main():
                 find_unused_parameters=True  # pooler layer is unused
             )
 
-        model_train(args, train_sampler, train_loader, val_loader, model,
+        model_train(args, train_sampler, train_loader, val_loader, model, tokenizer, 
                     device, local_rank, world_size, start_epoch)
         print("\nFinished training")
 
@@ -128,6 +138,9 @@ def main():
                         esm_size=args.plm.split('-')[-1])
         elif args.plm =="protalbert":
             model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False)
+        elif "AMPLIFY" in args.plm:
+            model = AMPLIFY(head_type=args.head_type, plm_output=args.plm_output, finetune_plm = False,
+                        amplify_type=args.plm)
         elif "baseline" in args.plm:
             if ("3" == args.level) or ("4" == args.level):
                 hla_max_length = 34
@@ -172,8 +185,8 @@ def main():
                 find_unused_parameters=True  # pooler layer is unused
             )
 
-        model_train(args, train_sampler, train_loader, val_loader, model,
-                        device, local_rank, world_size, start_epoch)
+        model_train(args, train_sampler, train_loader, val_loader, model, tokenizer,
+                    device, local_rank, world_size, start_epoch)
         print("\nFinished training")
 
 

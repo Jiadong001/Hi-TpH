@@ -45,5 +45,5 @@ CUDA_VISIBLE_DEVICES=0,3,5,6 python -m torch.distributed.run \
         --tcr_max_len $tcr_max_len \
         --level "$level" \
         --components "$components" \
-        --early_stop 5 \
+        --early_stop 4 \
         > "${log_path}/level${level}_${lr}_${batch_size}.txt"

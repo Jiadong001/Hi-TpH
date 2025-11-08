@@ -18,7 +18,7 @@ def transfer(y_prob, threshold=0.5):
     return np.array([[0, 1][x > threshold] for x in y_prob])
 
 
-def model_train_step(args, train_sampler, train_loader, model, epoch, device, local_rank):
+def model_train_step(args, train_sampler, train_loader, model, tokenizer, epoch, device, local_rank):
     fold, plm_type, plm_input_type, epochs, l_r, threshold, rand_neg, seed = (
         args.fold, args.plm, args.plm_input, args.epochs, args.lr,
         args.threshold, args.rand_neg, args.seed)
@@ -43,7 +43,8 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
         if rand_neg:
             pos_tcr_list, neg_tcr_list, pep_seq_list = batch
             batch_num = len(pos_tcr_list)
-            tcr_pmhc_tokens = seq2token(pos_tcr_list + neg_tcr_list,
+            tcr_pmhc_tokens = seq2token(tokenizer, 
+                                    pos_tcr_list + neg_tcr_list,
                                     pep_seq_list + pep_seq_list,
                                     plm_type, plm_input_type, device)
             train_labels = [1] * batch_num + [0] * batch_num
@@ -52,7 +53,7 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
         else:
             tcr_list, pep_seq_list, train_labels = batch
             batch_num = len(tcr_list)
-            tcr_pmhc_tokens = seq2token(tcr_list, pep_seq_list, plm_type,
+            tcr_pmhc_tokens = seq2token(tokenizer, tcr_list, pep_seq_list, plm_type,
                                     plm_input_type, device)
 
         t1 = time.time()
@@ -84,7 +85,7 @@ def model_train_step(args, train_sampler, train_loader, model, epoch, device, lo
     return ys_train, loss_train_list, metrics_train, time_train_ep
 
 
-def make_validation(args, model, loader, device, local_rank):
+def make_validation(args, model, tokenizer, loader, device, local_rank):
     rand_neg, fold, plm_type, plm_input_type, threshold = args.rand_neg, args.fold, args.plm, args.plm_input, args.threshold
 
     # set protbert tokenizer for baseline model
@@ -106,12 +107,12 @@ def make_validation(args, model, loader, device, local_rank):
                     print(tcr_seq_list[:2])
                     print(pep_seq_list[:2])
                     print_tag = 0
-                tcr_pmhc_tokens = seq2token(tcr_seq_list, pep_seq_list, plm_type,
+                tcr_pmhc_tokens = seq2token(tokenizer, tcr_seq_list, pep_seq_list, plm_type,
                                         plm_input_type, device)
             else:
                 pos_tcr_list, neg_tcr_list, pep_seq_list = batch
                 batch_num = len(pos_tcr_list)
-                tcr_pmhc_tokens = seq2token(
+                tcr_pmhc_tokens = seq2token(tokenizer, 
                     pos_tcr_list + neg_tcr_list,
                     pep_seq_list + pep_seq_list,
                     plm_type,
@@ -152,7 +153,7 @@ def model_train(args,
                 train_sampler,
                 train_loader,
                 val_loader,
-                model,
+                model, tokenizer, 
                 device,
                 local_rank,
                 world_size,
@@ -182,7 +183,7 @@ def model_train(args,
             )
         # 1. Train on GPUs
         ys_train, loss_train, metrics_train, time_train_ep = model_train_step(
-            args, train_sampler, train_loader, model, epoch, device,
+            args, train_sampler, train_loader, model, tokenizer, epoch, device,
             local_rank)
         loss_train_tensor = torch.tensor(loss_train, device=device).sum()
 
@@ -203,7 +204,7 @@ def model_train(args,
 
         for val_time in range(validation_times):
             dist.barrier()
-            ys_val, loss_val, metrics_val = make_validation(args, model, val_loader, device, local_rank)
+            ys_val, loss_val, metrics_val = make_validation(args, model, tokenizer, val_loader, device, local_rank)
             performance_val_df = pd.concat([
                 performance_val_df,
                 pd.DataFrame([[epoch, str(val_time)] + list(metrics_val)],
@@ -264,6 +265,7 @@ def model_train(args,
                     f"****Saving model: Best epoch = {ep_best} | Best Valid Metric = {ep_avg_val:.4f}"
                 )
 
+                ## save current best epoch
                 formatted_today = datetime.date.today().strftime("%y%m%d")
 
                 if args.finetune:
@@ -271,12 +273,29 @@ def model_train(args,
                 else:
                     new_model_name = f"plm_{args.plm}_WithoutFinetune_B{args.batch_size}_LR{args.lr}_seq_{args.plm_input}_fold{args.fold}_ep{ep_best}_{formatted_today}.pkl"
                 print("*****Path saver: ", new_model_name)
+                
                 if "baseline" in args.plm:          # 'baseline_mlp' object has no attribute 'module'
                     torch.save(model.eval().state_dict(),
                             args.model_path + new_model_name)
                 else:
                     torch.save(model.module.eval().state_dict(),
                             args.model_path + new_model_name)
+        
+        # if local_rank == 0: ## save every epoch
+        #     formatted_today = datetime.date.today().strftime("%y%m%d")
+
+        #     if args.finetune:
+        #         new_model_name = f"plm_{args.plm}_Finetune_B{args.batch_size}_LR{args.lr}_seq_{args.plm_input}_fold{args.fold}_ep{epoch}_{formatted_today}.pkl"
+        #     else:
+        #         new_model_name = f"plm_{args.plm}_WithoutFinetune_B{args.batch_size}_LR{args.lr}_seq_{args.plm_input}_fold{args.fold}_ep{epoch}_{formatted_today}.pkl"
+        #     print("*****Path saver: ", new_model_name)
+        
+        #     if "baseline" in args.plm:          # 'baseline_mlp' object has no attribute 'module'
+        #         torch.save(model.eval().state_dict(),
+        #                 args.model_path + new_model_name)
+        #     else:
+        #         torch.save(model.module.eval().state_dict(),
+        #                 args.model_path + new_model_name)
 
         if local_rank == 0:
             print("\n")

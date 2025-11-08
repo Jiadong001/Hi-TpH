@@ -28,16 +28,18 @@ def read_arguments():
                         default="1")
     # parser.add_argument('--components', nargs='+', type=str, default=['pep', 'beta'])
     parser.add_argument('--components', type=str, 
-                        choices=['pep beta', 'pep ab', 'pep hla beta', 'pep hla ab'],
+                        choices=['pep beta', 'pep ab', 'pep hla beta', 'pep hla ab',
+                                 'pep beta_cdr3', 'pep hla beta_cdr3', 'pep hla ab_cdr3'],
                         default='pep beta')
     # Do not change the fold
 
     # -----------------Parameters for Model Architectures-----------------------
     parser.add_argument("--plm",
                         type=str,
-                        choices=["tape", "protbert", 
-                            "esm2-8M", "esm2-35M", "esm2-150M", "esm2-650M",
-                            "protalbert", "baseline_mlp", "baseline_rnn"],
+                        choices=["tape", "protbert", "protalbert", 
+                            "esm2-8M", "esm2-35M", "esm2-150M", "esm2-650M", "esm2-3B",
+                            "AMPLIFY-120M", "AMPLIFY-120M-base", 'AMPLIFY-350M', 'AMPLIFY-350M-base',
+                            "baseline_mlp", "baseline_rnn"],
                         default="tape")
     parser.add_argument("--plm_input",
                         type=str,

@@ -5,26 +5,6 @@ import pandas as pd
 import torch
 from torch.utils.data.distributed import DistributedSampler
 import torch.utils.data as Data
-from tape import TAPETokenizer
-from transformers import AutoTokenizer, AlbertTokenizer
-
-
-"""
-Check your path of pre-trained models
-"""
-#### from huggingface
-# protbert_bfd_checkpoint = "Rostlab/prot_bert_bfd"
-# protalbert_checkpoint = "Rostlab/prot_albert"
-# esm2_8m_checkpoint = "facebook/esm2_t6_8M_UR50D"
-# esm2_35m_checkpoint = "facebook/esm2_t12_35M_UR50D"
-# esm2_150m_checkpoint = "facebook/esm2_t30_150M_UR50D"
-
-#### local
-protbert_bfd_checkpoint = "/data/lujd/huggingface/hub/prot_bert_bfd"
-protalbert_checkpoint = "/data/lujd/huggingface/hub/prot_albert"
-esm2_8m_checkpoint = "/data/lujd/huggingface/hub/esm2_t6_8M_UR50D"
-esm2_35m_checkpoint = "/data/lujd/huggingface/hub/esm2_t12_35M_UR50D"
-esm2_150m_checkpoint = "/data/lujd/huggingface/hub/esm2_t30_150M_UR50D"
 
 
 class level_1_Dataset(torch.utils.data.Dataset):
@@ -223,12 +203,24 @@ class level_3_Dataset(torch.utils.data.Dataset):
         if "ab" in df_phla_ab.columns:
             self.tcr_seq_list = df_phla_ab.ab.to_list() 
             self.pep_tcr_mapping = df_phla_ab.groupby('pep')['ab'].unique().to_dict()
-        else:
+        elif "ab_cdr3" in df_phla_ab.columns:
+            self.tcr_seq_list = df_phla_ab.ab_cdr3.to_list() 
+            self.pep_tcr_mapping = df_phla_ab.groupby('pep')['ab_cdr3'].unique().to_dict()
+            print('no full_seq information')
+            print(self.tcr_seq_list[:2])
+        elif "beta" in df_phla_ab.columns:
             self.tcr_seq_list = df_phla_ab.beta.to_list() 
             self.pep_tcr_mapping = df_phla_ab.groupby('pep')['beta'].unique().to_dict()
             print('no alpha information')
             print(self.tcr_seq_list[:2])
-        
+        elif "beta_cdr3" in df_phla_ab.columns:
+            self.tcr_seq_list = df_phla_ab.beta_cdr3.to_list() 
+            self.pep_tcr_mapping = df_phla_ab.groupby('pep')['beta_cdr3'].unique().to_dict()
+            print('no alpha & full_seq information')
+            print(self.tcr_seq_list[:2])
+        else:
+            raise ValueError(f"TCR components are not provided: {df_phla_ab.columns}")
+
         if "hla" in df_phla_ab.columns:
             self.hla_seq_list = df_phla_ab.hla.to_list()
             self.phla_seq_list = [pep+'/'+hla for pep, hla in zip(self.pep_seq_list, self.hla_seq_list)]
@@ -285,12 +277,26 @@ class level_3_Dataset_RN(torch.utils.data.Dataset):
             self.tcr_seq_list = df_phla_ab.ab.to_list() 
             self.pep_tcr_mapping = df_phla_ab.groupby('pep')['ab'].unique().to_dict()
             self.beta_only = False
-        else:
+        elif "ab_cdr3" in df_phla_ab.columns:
+            self.tcr_seq_list = df_phla_ab.ab_cdr3.to_list() 
+            self.pep_tcr_mapping = df_phla_ab.groupby('pep')['ab_cdr3'].unique().to_dict()
+            self.beta_only = False
+            print('no full_seq information')
+            print(self.tcr_seq_list[:2])
+        elif "beta" in df_phla_ab.columns:
             self.tcr_seq_list = df_phla_ab.beta.to_list() 
             self.pep_tcr_mapping = df_phla_ab.groupby('pep')['beta'].unique().to_dict()
             self.beta_only = True
             print('no alpha information')
             print(self.tcr_seq_list[:2])
+        elif "beta_cdr3" in df_phla_ab.columns:
+            self.tcr_seq_list = df_phla_ab.beta_cdr3.to_list() 
+            self.pep_tcr_mapping = df_phla_ab.groupby('pep')['beta_cdr3'].unique().to_dict()
+            self.beta_only = True
+            print('no alpha & full_seq information')
+            print(self.tcr_seq_list[:2])
+        else:
+            raise ValueError(f"TCR components are not provided: {df_phla_ab.columns}")
         
         if "hla" in df_phla_ab.columns:
             self.hla_seq_list = df_phla_ab.hla.to_list()
@@ -320,12 +326,14 @@ class level_3_Dataset_RN(torch.utils.data.Dataset):
 
         binding_true_set = set(self.pep_tcr_mapping.get(pep_seq))
         neg_tcr_seq = random.choice(self.neg_tcr_candidates)
+        
         if self.beta_only:
             neg_tcr_seq = neg_tcr_seq.split('/')[-1]
         while neg_tcr_seq in binding_true_set:
             neg_tcr_seq = random.choice(self.neg_tcr_candidates)
             if self.beta_only:
                 neg_tcr_seq = neg_tcr_seq.split('/')[-1]
+        
         if self.padding == True:                        # pad then cat
             if len(phla_seq.split('/')) > 1:
                 phla_seq = pep_seq.ljust(self.pep_max_len, 'X') + phla_seq.split('/')[-1].ljust(self.hla_max_len, 'X')
@@ -347,16 +355,15 @@ class level_3_Dataset_RN(torch.utils.data.Dataset):
         return len(self.tcr_seq_list)
 
 
-def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_size = '8M'):
+def seq2token(tokenizer, tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device):
     '''
-    plm_type : "tape" "protbert/protalbert" "esm"
+    plm_type : "tape" "protbert/protalbert" "esm" "AMPLIFY"
     plm_input_type: "sep", "cat"
     '''
 
     tcr_pep_inputs = []  # the input of model is token
 
     if plm_type == "tape":
-        tokenizer = TAPETokenizer(vocab='iupac')
         for tcr, pep in zip(tcr_seq_list, pep_seq_list):
             tcr_pmhc = tcr + pep
             token = tokenizer.encode(tcr_pmhc)  # array
@@ -366,12 +373,6 @@ def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_
             tcr_pep_inputs.append(token)
 
     elif plm_type in ['protbert', 'protalbert']:
-        if plm_type == 'protbert':
-            tokenizer = AutoTokenizer.from_pretrained(protbert_bfd_checkpoint,
-                                                    do_lower_case=False)
-        elif plm_type == 'protalbert':
-            tokenizer = AlbertTokenizer.from_pretrained(protalbert_checkpoint,
-                                                    do_lower_case=False)
         for tcr, pep in zip(tcr_seq_list, pep_seq_list):
             tcr_pmhc = tcr + pep
             tcr_pmhc = ' '.join(tcr_pmhc)
@@ -382,21 +383,25 @@ def seq2token(tcr_seq_list, pep_seq_list, plm_type, plm_input_type, device, esm_
             tcr_pep_inputs.append(token)
 
     elif "esm2" in plm_type:
-        if plm_type.split('-')[-1] == '8M':
-            tokenizer = AutoTokenizer.from_pretrained(esm2_8m_checkpoint)
-        elif plm_type.split('-')[-1] == '35M':      # actually same as 8M
-            tokenizer = AutoTokenizer.from_pretrained(esm2_35m_checkpoint)
-        elif plm_type.split('-')[-1] == '150M':     # actually same as 8M
-            tokenizer = AutoTokenizer.from_pretrained(esm2_150m_checkpoint)
         for tcr, pep in zip(tcr_seq_list, pep_seq_list):
             tcr_pmhc = tcr + pep
             token = tokenizer.encode(tcr_pmhc)  # array
             if plm_input_type == "sep":
                 token = np.insert(token, (len(tcr_pmhc) + 1),
-                                  3)  # insert 3(<sep>) in position len(hla)+1
+                                  2)  # insert 2(<eos>) in position len(hla)+1
+            tcr_pep_inputs.append(token)
+
+    elif "AMPLIFY" in plm_type:
+        for tcr, pep in zip(tcr_seq_list, pep_seq_list):
+            tcr_pmhc = tcr + pep
+            token = tokenizer.encode(tcr_pmhc)  # array
+            if plm_input_type == "sep":
+                token = np.insert(token, (len(tcr_pmhc) + 1),
+                                  4)  # insert 4(<eos>) in position len(hla)+1
             tcr_pep_inputs.append(token)
 
     tcr_pep_inputs = np.array(tcr_pep_inputs)
+    # print(f'numpy shape {tcr_pep_inputs.shape}') #!
     tcr_pep_inputs_tensor = torch.from_numpy(tcr_pep_inputs)
     tcr_pep_inputs_tensor = tcr_pep_inputs_tensor.to(device)
     return tcr_pep_inputs_tensor
@@ -435,9 +440,11 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
         print("Not found external data")
         external_df = None
     
-    if ('beta' in comp_cols) and os.path.exists(os.path.join(data_path, "tcr2candidates_pools_cdr3.npy")):
-        tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools_cdr3.npy"), allow_pickle=True,).tolist()
+    if (('ab_cdr3' in comp_cols) or ('beta_cdr3' in comp_cols)) and os.path.exists(os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy")):
+        print(f'Read TCR candidates from {os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy")}')
+        tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy"), allow_pickle=True,).tolist()
     else:
+        print(f'Read TCR candidates from {os.path.join(data_path, "tcr2candidates_pools.npy")}')
         tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools.npy"), allow_pickle=True,).tolist()
     print(f"TCR pool size: {len(tcr2candidates)}")
     
@@ -530,8 +537,16 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
 
 def immrep2023_data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len, tcr_max_len, level,
                            comp_cols):
-    train_df = pd.read_csv(os.path.join(data_path,"filtered_train_data_fold{}.csv".format(fold)))
-    valid_df = pd.read_csv(os.path.join(data_path,"filtered_valid_data_fold{}.csv".format(fold)))
+    
+    # Extract base level without any suffix (e.g., "2_basic" -> "2")
+    base_level = level.split('_')[0]
+
+    if base_level == "4":   # no overlap, no filtering
+        train_df = pd.read_csv(os.path.join(data_path,"train_data_fold{}.csv".format(fold)))
+        valid_df = pd.read_csv(os.path.join(data_path,"valid_data_fold{}.csv".format(fold)))
+    else:
+        train_df = pd.read_csv(os.path.join(data_path,"filtered_train_data_fold{}.csv".format(fold)))
+        valid_df = pd.read_csv(os.path.join(data_path,"filtered_valid_data_fold{}.csv".format(fold)))
     test_df = pd.read_csv(os.path.join(data_path,"immrep2023_restricted.csv".format(fold)))
 
     # Extract required components
@@ -540,12 +555,14 @@ def immrep2023_data_loader(data_path, batch_size, fold, rand_neg, num_workers, p
     test_df = test_df[comp_cols+['label']]
     # train_df = train_df.drop_duplicates(ignore_index=True)
     # valid_df = valid_df.drop_duplicates(ignore_index=True)
-    # test_df = test_df.drop_duplicates(ignore_index=True)
+    test_df = test_df.drop_duplicates(ignore_index=True)    # for basic components
     print(train_df.columns, test_df.columns)
     
-    if ('beta' in comp_cols) and os.path.exists(os.path.join(data_path, "tcr2candidates_pools_cdr3.npy")):
-        tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools_cdr3.npy"), allow_pickle=True,).tolist()
+    if (('ab_cdr3' in comp_cols) or ('beta_cdr3' in comp_cols)) and os.path.exists(os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy")):
+        print(f'Read TCR candidates from {os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy")}')
+        tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy"), allow_pickle=True,).tolist()
     else:
+        print(f'Read TCR candidates from {os.path.join(data_path, "tcr2candidates_pools.npy")}')
         tcr2candidates = np.load(os.path.join(data_path, "tcr2candidates_pools.npy"), allow_pickle=True,).tolist()
     print(f"TCR pool size: {len(tcr2candidates)}")
     
@@ -561,9 +578,6 @@ def immrep2023_data_loader(data_path, batch_size, fold, rand_neg, num_workers, p
         "3": level_3_Dataset,
         "4": level_3_Dataset,
     }
-
-    # Extract base level without any suffix (e.g., "2_basic" -> "2")
-    base_level = level.split('_')[0]
 
     if rand_neg:
         print(f"RN in level{level}")

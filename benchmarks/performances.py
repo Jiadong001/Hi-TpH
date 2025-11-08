@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from collections import Counter
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, matthews_corrcoef
 from sklearn.metrics import roc_auc_score, auc
 from sklearn.metrics import precision_recall_curve
 
@@ -11,8 +11,9 @@ def performances(y_true, y_pred, y_prob, print_=True):
                                       labels=[0, 1]).ravel().tolist()
     accuracy = (tp + tn) / (tn + fp + fn + tp)
     try:
-        mcc = ((tp * tn) - (fn * fp)) / np.sqrt(
-            float((tp + fn) * (tn + fp) * (tp + fp) * (tn + fn)))
+        # mcc = ((tp * tn) - (fn * fp)) / np.sqrt(
+        #     float((tp + fn) * (tn + fp) * (tp + fp) * (tn + fn)))
+        mcc = matthews_corrcoef(y_true, y_pred)
     except:
         print('MCC Error: ', (tp + fn) * (tn + fp) * (tp + fp) * (tn + fn))
         mcc = np.nan
