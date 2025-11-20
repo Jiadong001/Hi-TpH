@@ -17,6 +17,7 @@ Install basic packages using `env.yaml`/`requirements.txt` or the following inst
 conda create -n hitph python=3.8
 conda activate hitph
 
+# remove '-i https://pypi.tuna.tsinghua.edu.cn/simple/' if necessary
 pip install pandas==2.0.3 numpy==1.24.3 scikit-learn tqdm jupyter notebook -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 conda install pytorch==1.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
@@ -24,10 +25,28 @@ conda install pytorch==1.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
 
 pip install transformers==4.36.2 datasets==2.16.1 tokenizers==0.15.0 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
-pip install tape_proteins biopython==1.83
+pip install tape_proteins biopython==1.83 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
-# for plotting
-conda install matplotlib seaborn
+# for plotting and running notebooks
+conda install matplotlib seaborn jupyter notebook
+```
+
+An alternative Python 3.10 environment (AMPLIFY needs python>=3.10):
+```bash
+conda create -n py310 python=3.10
+conda activate py310
+
+pip install pandas==2.0 numpy==1.26 scikit-learn tqdm -i https://pypi.tuna.tsinghua.edu.cn/simple/
+
+# AMPLIFY needs python>=3.10, torch==2.2, xformers==0.0.24, ...
+# details see: https://github.com/chandar-lab/AMPLIFY/blob/main/pyproject.toml
+pip install torch==2.2.0 xformers==0.0.24 --index-url https://download.pytorch.org/whl/cu118 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install transformers==4.38 accelerate==0.27 deepspeed==0.13 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+
+pip install tape_proteins biopython==1.83 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+
+# for plotting and running notebooks
+conda install matplotlib seaborn jupyter notebook
 ```
 
 
@@ -36,6 +55,8 @@ conda install matplotlib seaborn
 > [`./data_preprocess`](./data_preprocess/) -> [`./data`](./data/) 
 
 [`./data_preprocess`](./data_preprocess/) folder descripes detailed data collection and processing procedures.
+
+- check [`./data_preprocess/README.md`](./data_preprocess/README.md) for instructions.
 
 [`./data`](./data/) details:
 
@@ -111,6 +132,21 @@ conda install matplotlib seaborn
 <td colspan=11></td>
 </tr>
 <tr>
+<td style="font-weight:bold"> immrep2023_solutions.csv </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td> √ </td>
+<td>3,484</td>
+<td>[6]</td>
+<tr>
+<td colspan=11></td>
+</tr>
+<tr>
 <td colspan=2 style="font-weight:bold"> Hi-TpH-hla_allele2seq.json </td>
 <td colspan=9>A dictionary for mapping from HLA allele to HLA amino acid sequences</td>
 </tr>
@@ -125,6 +161,7 @@ conda install matplotlib seaborn
 - [3] [McPAS-TCR](http://friedmanlab.weizmann.ac.il/McPAS-TCR/)
 - [4] [ImmuneCODE-MIRA](https://clients.adaptivebiotech.com/pub/covid-2020)
 - [5] [STAPLER data](https://files.aiforoncology.nl/stapler/data/)
+- [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv)
 
 
 ## Run Benchmarks
@@ -133,6 +170,7 @@ We save the splited level1~level4 benchmark datasets in [`./benchmarks_dataset`]
 
 - You can also prepare benchmark datasets from scratch (see `prepare_benchmark_data.ipynb`).
 
+> We have temporarily uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).
 
 Train models using benchmark datasets of different levels (see [`./benchmarks`](./benchmarks/)):
 
@@ -147,11 +185,3 @@ Train models using benchmark datasets of different levels (see [`./benchmarks`](
   - See `./benchmarks/scripts/eval_**.sh` to run `test_main.py`
   - Hint: the evaluation in `train_main.py` is only for the last epoch of models, not the best epoch.
 
-
-> Define the max_len for different levels.：
->|           | pep_max_len | tcr_max_len |
->| :-------: | :---------: | :---------: |
->|  level-I  |     15      |     19      |
->| level-II | 44 (10+34)  |     19      |
->| level-III |     10      |     19      |
->| level-IV  |     10      |     121     |

@@ -6,7 +6,7 @@ Collect from common databases
 See data provided by other papers
 - `see***.ipynb`
 
-Merge collected data from three common databases(IEDB, VDJdb, McPAS-TCR)
+Merge collected data
 - `merge_main_dataset.ipynb`
 
 Get allele/gene2sequence dictionary
@@ -18,10 +18,6 @@ Clean Merged data
 Split collected into different levels
 - `split_level.ipynb`
 
-
-# Details of Raw Data
-
-- [] To be updated...
 
 ## ¶ Data from papers
 

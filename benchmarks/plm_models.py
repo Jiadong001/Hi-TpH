@@ -13,6 +13,7 @@ cache_dir = "/NAS/lujd/huggingface/hub/"
 protbert_checkpoint = "Rostlab/prot_bert"   # "Rostlab/prot_bert_bfd"
 amplify_120m_checkpoint = "chandar-lab/AMPLIFY_120M"
 amplify_120m_base_checkpoint = "chandar-lab/AMPLIFY_120M_base"
+amplify_350m_checkpoint = "chandar-lab/AMPLIFY_350M"
 esm2_650m_checkpoint = "facebook/esm2_t33_650M_UR50D"
 
 #### local (downloaded from huggingface website)
@@ -52,6 +53,8 @@ def load_tokenizer(plm_type):
             tokenizer = AutoTokenizer.from_pretrained(amplify_120m_checkpoint, cache_dir=cache_dir)
         elif plm_type == 'AMPLIFY-120M-base':
             tokenizer = AutoTokenizer.from_pretrained(amplify_120m_base_checkpoint, cache_dir=cache_dir)
+        elif plm_type == 'AMPLIFY-350M':
+            tokenizer = AutoTokenizer.from_pretrained(amplify_350m_checkpoint, cache_dir=cache_dir)
     return tokenizer
 
 

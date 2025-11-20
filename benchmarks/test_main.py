@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.distributed as dist
-from plm_models import TAPE, ProtBert, ESM2, ProtAlBert, load_tokenizer
+from plm_models import TAPE, ProtBert, ESM2, ProtAlBert, AMPLIFY, load_tokenizer
 from tape import ProteinBertConfig
 from torch.nn.parallel import DistributedDataParallel
 from train import make_validation
@@ -94,6 +94,9 @@ def main():
                         esm_size=esm_size)
                 args.plm = f"esm2-{esm_size}"
                 break
+    elif "AMPLIFY" in args.checkpoint_file.split('/')[-1]:
+        model = AMPLIFY(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag,
+                amplify_type=args.plm)
     elif "protalbert" in args.checkpoint_file.split('/')[-1]:
         model = ProtAlBert(head_type=args.head_type, plm_output=args.plm_output, finetune_plm=finetune_plm_tag)
         args.plm = "protalbert"
