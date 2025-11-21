@@ -66,8 +66,8 @@ conda install matplotlib seaborn jupyter notebook
 <th rowspan=2 style="text-align:center">peptide</th>
 <th rowspan=2 style="text-align:center">HLA<br></th>
 <th colspan=6 style="text-align:center">TCR</th>
-<th rowspan=2 style="text-align:center">#samples</th>
-<th rowspan=2 style="text-align:center">source</th>
+<!-- <th rowspan=2 style="text-align:center">#samples</th>
+<th rowspan=2 style="text-align:center">source</th> -->
 </tr>
 <tr>
 <th>CDR3a</th>
@@ -87,8 +87,8 @@ conda install matplotlib seaborn jupyter notebook
 <td></td>
 <td></td>
 <td></td>
-<td>204,376</td>
-<td>[1-4]</td>
+<!-- <td>214,641</td>
+<td>[1-4]</td> -->
 </tr>
 <tr>
 <td style="font-weight:bold"> Hi-TpH-level-II.csv </td>
@@ -100,8 +100,8 @@ conda install matplotlib seaborn jupyter notebook
 <td></td>
 <td></td>
 <td></td>
-<td>73,553</td>
-<td>[1-3]</td>
+<!-- <td>78,679</td>
+<td>[1-3]</td> -->
 </tr>
 <tr>
 <td style="font-weight:bold"> Hi-TpH-level-III.csv </td>
@@ -113,8 +113,8 @@ conda install matplotlib seaborn jupyter notebook
 <td></td>
 <td></td>
 <td></td>
-<td>26,353</td>
-<td>[1-3]</td>
+<!-- <td>28,262</td>
+<td>[1-3]</td> -->
 </tr>
 <tr>
 <td style="font-weight:bold"> Hi-TpH-level-IV.csv </td>
@@ -126,8 +126,8 @@ conda install matplotlib seaborn jupyter notebook
 <td> √ </td>
 <td> √ </td>
 <td> √ </td>
-<td>24,639</td>
-<td>[1-3,5]</td>
+<!-- <td>26,704</td>
+<td>[1-3,5]</td> -->
 <tr>
 <td colspan=11></td>
 </tr>
@@ -141,8 +141,8 @@ conda install matplotlib seaborn jupyter notebook
 <td> √ </td>
 <td> √ </td>
 <td> √ </td>
-<td>3,484</td>
-<td>[6]</td>
+<!-- <td>3,484</td>
+<td>[6]</td> -->
 <tr>
 <td colspan=11></td>
 </tr>
@@ -156,21 +156,21 @@ conda install matplotlib seaborn jupyter notebook
 </tr>
 </table>
 
-- [1] [IEDB](https://www.iedb.org/)
+<!-- - [1] [IEDB](https://www.iedb.org/)
 - [2] [VDJdb](https://github.com/antigenomics/vdjdb-db/releases)
 - [3] [McPAS-TCR](http://friedmanlab.weizmann.ac.il/McPAS-TCR/)
 - [4] [ImmuneCODE-MIRA](https://clients.adaptivebiotech.com/pub/covid-2020)
 - [5] [STAPLER data](https://files.aiforoncology.nl/stapler/data/)
-- [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv)
+- [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv) -->
 
 
 ## Run Benchmarks
 
-We save the splited level1~level4 benchmark datasets in [`./benchmarks_dataset`](./benchmarks_dataset/) .
-
-- You can also prepare benchmark datasets from scratch (see `prepare_benchmark_data.ipynb`).
-
 > We have temporarily uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).
+
+The split level1~level4 benchmark datasets are saved in [`./benchmarks_dataset`](./benchmarks_dataset/) .
+
+<!-- - You can also prepare benchmark datasets from scratch (see `prepare_benchmark_data.ipynb`). -->
 
 Train models using benchmark datasets of different levels (see [`./benchmarks`](./benchmarks/)):
 
@@ -183,5 +183,5 @@ Train models using benchmark datasets of different levels (see [`./benchmarks`](
 
 - [Evaluation] After Training, you can test the model with `test_main.py`.
   - See `./benchmarks/scripts/eval_**.sh` to run `test_main.py`
-  - Hint: the evaluation in `train_main.py` is only for the last epoch of models, not the best epoch.
+
 
