@@ -1,0 +1,1752 @@
+{
+    "TRAV1-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQSLEQPSEVTAVEGAIVQINCTYQTSGFYGLSWYQQHDGGAPTFLSYNALDGLEETGRFSSFLSRSDSYGYLLLQELQMKDSASYFCAVR",
+        "sequence length(aa)": 91
+    },
+    "TRAV1-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQSLEQPSEVTAVEGAIVQINCTYQTSGFYGLSWYQQHDGGAPTFLSYNGLDGLEETGRFSSFLSRSDSYGYLLLQELQMKDSASYFCA",
+        "sequence length(aa)": 89
+    },
+    "TRAV1-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVR",
+        "sequence length(aa)": 91
+    },
+    "TRAV1-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKG",
+        "sequence length(aa)": 58
+    },
+    "TRAV1-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVR",
+        "sequence length(aa)": 91
+    },
+    "TRAV10*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNQVEQSPQSLIILEGKNCTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVS",
+        "sequence length(aa)": 93
+    },
+    "TRAV10*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNQVEQSPQSLIILEGKNCTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVS",
+        "sequence length(aa)": 93
+    },
+    "TRAV11*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "LHTLEQSPSFLNIQEGMHAVLNCTYQERTLFNFHWFRQDPGRRLVSLTLIQSSQKEQGDKYFKELLGKEKFYSVWNIAASHLGDSATYFCAL",
+        "sequence length(aa)": 92
+    },
+    "TRAV12-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "RKEVEQDPGPFNVPEGATVAFNCTYSNSASQSFFWYRQDCRKEPKLLMSVYSSGNEDGRFTAQLNRASQYISLLIRDSKLSDSATYLCVVN",
+        "sequence length(aa)": 91
+    },
+    "TRAV12-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "RKEVEQDPGPFNVPEGATVAFNCTYSNSASQSFFWYRQDCRKEPKLLMSVYSSGNEDGRFTAHVNRASQYISLLIRDSKLSDSATYLCVVN",
+        "sequence length(aa)": 91
+    },
+    "TRAV12-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVN",
+        "sequence length(aa)": 92
+    },
+    "TRAV12-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAV",
+        "sequence length(aa)": 91
+    },
+    "TRAV12-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GPLSVPEGAIASLNCTYSDRVSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVN",
+        "sequence length(aa)": 84
+    },
+    "TRAV12-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRKGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMS",
+        "sequence length(aa)": 92
+    },
+    "TRAV12-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRIGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMS",
+        "sequence length(aa)": 92
+    },
+    "TRAV13-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GENVEQHPSTLSVQEGDSAVIKCTYSDSASNYFPWYKQELGKGPQLIIDIRSNVGEKKDQRIAVTLNKTAKHFSLHITETQPEDSAVYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV13-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GENVEQHPSTLSVQEGDSAVIKCTYSDSASNYFPWYKQELGKRPQLIIDIRSNVGEKKDQRIAVTLNKTAKHFSLHITETQPEDSAVYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV13-1*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GENVEQHPSTLSVQEGDSAVIKCTYSDSASNYFPWYKQELGKRPQLIIDIRSNVGEKKDQRIAVTLNKTAKHFSLQIT",
+        "sequence length(aa)": 78
+    },
+    "TRAV13-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GESVGLHLPTLSVQEGDNSIINCAYSNSASDYFIWYKQESGKGPQFIIDIRSNMDKRQGQRVTVLLNKTVKHLSLQIAATQPGDSAVYFCAEN",
+        "sequence length(aa)": 93
+    },
+    "TRAV13-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GESVGLHLPTLSVQEGDNSIINCAYSNSASDYFIWYKQESGKGPQFIIDIRSNMDKRQGQRVTVLLNKTVKHLSLQIAATQPGDSAVYFCAE",
+        "sequence length(aa)": 92
+    },
+    "TRAV14/DV4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDPSYGLFWYKQPSSGEMIFLIYQGSYDQQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96
+    },
+    "TRAV14/DV4*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDQSYGLFWYKQPSSGEMIFLIYQGSYDEQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRE",
+        "sequence length(aa)": 96
+    },
+    "TRAV14/DV4*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKITQTQPGMFVQEKEAVTLDCTYDTSDPSYGLFWYKQPSSGEMIFLIYQGSYDQQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAM",
+        "sequence length(aa)": 94
+    },
+    "TRAV14/DV4*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QKITQTQPGMFVQEKEAVTLDCTYDTSDQSYGLFWYKQPSSGEMIFLIYQGSYDEQNATEGRYSLNFQKARKSANLVISASQLGDSAMYF",
+        "sequence length(aa)": 90
+    },
+    "TRAV16*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQRVTQPEKLLSVFKGAPVELKCNYSYSGSPELFWYVQYSRQRLQLLLRHISRESIKGFTADLNKGETSFHLKKPFAQEEDSAMYYCALS",
+        "sequence length(aa)": 90
+    },
+    "TRAV17*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQQGEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATD",
+        "sequence length(aa)": 92
+    },
+    "TRAV18*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVTQTEGPVTLPERAALTLNCTYQSSYSTFLFWYVQYLNKEPELLLKSSENQETDSRGFQASPIKSDSSFHLEKPSVQLSDSAVYYCALR",
+        "sequence length(aa)": 92
+    },
+    "TRAV19*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQKVTQAQTEISVVEKEDVTLDCVYETRDTTYYLFWYKQPPSGELVFLIRRNSFDEQNEISGRYSWNFQKSTSSFNFTITASQVVDSAVYFCALSE",
+        "sequence length(aa)": 96
+    },
+    "TRAV2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KDQVFQPSTVASSEGAVVEIFCNHSVSNAYNFFWYLHFPGCAPRLLVKGSKPSQQGRYNMTYERFSSSLLILQVREADAAVYYCAVE",
+        "sequence length(aa)": 87
+    },
+    "TRAV2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KDQVFQPSTVASSEGAVVEIFCNHSVSNAYNFFWHLHFPGCAPRLLVKGSKPSQQGRYNMTYERFSSSLLILQVREADAAVYYCAVAW",
+        "sequence length(aa)": 88
+    },
+    "TRAV20*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESSSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCAVQ",
+        "sequence length(aa)": 91
+    },
+    "TRAV20*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESSSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCAVQ",
+        "sequence length(aa)": 91
+    },
+    "TRAV20*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESRSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLC",
+        "sequence length(aa)": 88
+    },
+    "TRAV20*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDQVTQSPEALRLQEGESSSLNCSCTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCA",
+        "sequence length(aa)": 89
+    },
+    "TRAV21*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLIQSSQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCAVR",
+        "sequence length(aa)": 93
+    },
+    "TRAV21*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLIQSSQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCA",
+        "sequence length(aa)": 91
+    },
+    "TRAV22*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GIQVEQSPPDLILQEGANSTLRCNFSDSVNNLQWFHQNPWGQLINLFYIPSGTKQNGRLSATTVATERYSLLYISSSQTTDSGVYFCAVE",
+        "sequence length(aa)": 90
+    },
+    "TRAV23/DV6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV23/DV6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGIPIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV23/DV6*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV23/DV6*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSLHIMDSQPGDSATYFC",
+        "sequence length(aa)": 89
+    },
+    "TRAV23/DV6*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQQVKQSPQSLIVQKGGISIINCAYENTAFDYFPWYQQFPGKGPALLIAIRPDVSEKKEGRFTISFNKSAKQFSSHIMDSQPGDSATYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV24*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILNVEQSPQSLHVQEGDSTNFTCSFPSSNFYALHWYRWETAKSPEALFVMTLNGDEKKKGRISATLNTKEGYSYLYIKGSQPEDSATYLCAF",
+        "sequence length(aa)": 92
+    },
+    "TRAV24*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILNVEQGPQSLHVQEGDSTNFTCSFPSSNFYALHWYRWETAKTPEALFVMTLNGDEKKKGRISATLNTKEGYSYLYIKGSQPEDSATYLCAF",
+        "sequence length(aa)": 92
+    },
+    "TRAV25*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQVMQIPQYQHVQEGEDFTTYCNSSTTLSNIQWYKQRPGGHPVFLIQLVKSGEVKKQKRLTFQFGEAKKNSSLHITATQTTDVGTYFCAG",
+        "sequence length(aa)": 91
+    },
+    "TRAV26-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92
+    },
+    "TRAV26-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPTSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRV",
+        "sequence length(aa)": 92
+    },
+    "TRAV26-1*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQNIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCI",
+        "sequence length(aa)": 89
+    },
+    "TRAV26-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMASLAIAEDRKSSTLILHRATLRDAAVYYCILRD",
+        "sequence length(aa)": 92
+    },
+    "TRAV26-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMACVAIAEDRKSST",
+        "sequence length(aa)": 72
+    },
+    "TRAV27*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGLYLCAG",
+        "sequence length(aa)": 91
+    },
+    "TRAV27*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGHYLCA",
+        "sequence length(aa)": 90
+    },
+    "TRAV27*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQTGDTGLYLCAG",
+        "sequence length(aa)": 91
+    },
+    "TRAV29/DV5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLHIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV29/DV5*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLDIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV29/DV5*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DQQVKQNSPSLSVQEGRISILNCDYTNSMFDYFLWYKKYPAEGPTFLISISSIKDKNEDGRFTVFLNKSAKHLSLHIVPSQPGDSAVYFCAAS",
+        "sequence length(aa)": 93
+    },
+    "TRAV3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVAQPEDQVNVAEGNPLTVKCTYSVSGNPYLFWYVQYPNRGLQFLLKYITGDNLVKGSYGFEAEFNKSQTSFHLKKPSALVSDSALYFCAVRD",
+        "sequence length(aa)": 95
+    },
+    "TRAV30*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVINCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQKGHEKISASFNEKKQQSSLYLTASQLSYSGTYFCGTE",
+        "sequence length(aa)": 91
+    },
+    "TRAV30*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVTNCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQMRREKISASFNEKKQQSSLYLTASQLSYSGTYFCG",
+        "sequence length(aa)": 89
+    },
+    "TRAV30*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVINCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQKGHEKISASFNEKKRQSSLYLTASQLSYSGTYFCG",
+        "sequence length(aa)": 89
+    },
+    "TRAV30*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVINCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQKRHEKISASFNEKKQQSSLYLT",
+        "sequence length(aa)": 76
+    },
+    "TRAV30*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQPVQSPQAVILREGEDAVINCSSSKALYSVHWYRQKHGEAPVFLMILLKGGEQKGHDKISASFNEKKQQSSLYLTASQLSYSGTYFCGTE",
+        "sequence length(aa)": 91
+    },
+    "TRAV34*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQELEQSPQSLIVQEGKNLTINCTSSKTLYGLYWYKQKYGEGLIFLMMLQKGGEEKSHEKITAKLDEKKQQSSLHITASQPSHAGIYLCGAD",
+        "sequence length(aa)": 92
+    },
+    "TRAV35*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQLNQSPQSMFIQEGEDVSMNCTSSSIFNTWLWYKQEPGEGPVLLIALYKAGELTSNGRLTAQFGITRKDSFLNISASIPSDVGIYFCAGQ",
+        "sequence length(aa)": 92
+    },
+    "TRAV35*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQLNQSPQSMFIQEGEDVSMNCTSSSIFNTWLWYKQDPGEGPVLLIALYKAGELTSNGRLTAQFGITRKDSFLNISASIPSDVGIYFCA",
+        "sequence length(aa)": 90
+    },
+    "TRAV35*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQLNQSPQSMFTQEGEDVSMNCTSSSIFNT*LWYKQDPGEGPVLLIALYKAGELTSNGRLTAQFGITRKDSFLNISASIPSDVGIYFCAGQ",
+        "sequence length(aa)": 92
+    },
+    "TRAV36/DV7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPLSLVVHEGDTVTLNCSYEVTNFRSLLWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELSSILNITATQTGDSAIYLCAVE",
+        "sequence length(aa)": 92
+    },
+    "TRAV36/DV7*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPQSLVVHEGDTVTLNCSYEMTNFRSLQWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELFSILNITATQTGDSAVYLCAV",
+        "sequence length(aa)": 91
+    },
+    "TRAV36/DV7*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPLSLVVHEGDTVTPNCSYEVTNFRSLLWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELFSILNITATQTGDSAVYLCA",
+        "sequence length(aa)": 90
+    },
+    "TRAV36/DV7*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPLSLVVHEGDTVTLNCSYEVTNFRSLLWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELFSILNITATQTGDSAVYLCA",
+        "sequence length(aa)": 90
+    },
+    "TRAV36/DV7*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EDKVVQSPLSLVVHEGDTVTLNCSYEVTNFRSLLWYKQEKKAPTFLFMLTSSGIEKKSGRLSSILDKKELFSILNITATQTGDSAIYLCAVE",
+        "sequence length(aa)": 92
+    },
+    "TRAV38-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSENNYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCAFMK",
+        "sequence length(aa)": 96
+    },
+    "TRAV38-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSENDYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCA",
+        "sequence length(aa)": 93
+    },
+    "TRAV38-1*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSESNYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCAF",
+        "sequence length(aa)": 94
+    },
+    "TRAV38-1*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSENNYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDTAMYFCA",
+        "sequence length(aa)": 93
+    },
+    "TRAV38-2/DV8*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQTVTQSQPEMSVQEAETVTLSCTYDTSESDYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDAAMYFCAYRS",
+        "sequence length(aa)": 96
+    },
+    "TRAV39*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ELKVEQNPLFLSMQEGKNYTIYCNYSTTSDRLYWYRQDPGKSLESLFVLLSNGAVKQEGRLMASLDTKARLSTLHITAAVHDLSATYFCAVD",
+        "sequence length(aa)": 92
+    },
+    "TRAV4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "LAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGD",
+        "sequence length(aa)": 92
+    },
+    "TRAV40*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNSVKQTGQITVSEGASVTMNCTYTSTGYPTLFWYVEYPSKPLQLLQRETMENSKNFGGGNIKDKNSPIVKYSVQVSDSAVYYCLLG",
+        "sequence length(aa)": 87
+    },
+    "TRAV41*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KNEVEQSPQNLTAQEGEFITINCSYSVGISALHWLQQHPGGGIVSLFMLSSGKKKHGRLIATINIQEKHSSLHITASHPRDSAVYICAVR",
+        "sequence length(aa)": 90
+    },
+    "TRAV5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEDVEQSLFLSVREGDSSVINCTYTDSSSTYLYWYKQEPGAGLQLLTYIFSNMDMKQDQRLTVLLNKKDKHLSLRIADTQTGDSAIYFCAES",
+        "sequence length(aa)": 92
+    },
+    "TRAV6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCALD",
+        "sequence length(aa)": 93
+    },
+    "TRAV6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCA",
+        "sequence length(aa)": 91
+    },
+    "TRAV6*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCA",
+        "sequence length(aa)": 83
+    },
+    "TRAV6*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHVTASQPADSATYLCA",
+        "sequence length(aa)": 83
+    },
+    "TRAV6*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCA",
+        "sequence length(aa)": 83
+    },
+    "TRAV6*06": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLNQ",
+        "sequence length(aa)": 72
+    },
+    "TRAV6*07": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQKIEQNSEALNIQEGKTATLTCNYTNYSPAYLQWYRQDPGRGPVFLLLIRENEKEKRKERLKVTFDTTLKQSLFHITASQPADSATYLCALD",
+        "sequence length(aa)": 93
+    },
+    "TRAV7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ENQVEHSPHFLGPQQGDVASMSCTYSVSRFNNLQWYRQNTGMGPKHLLSMYSAGYEKQKGRLNATLLKNGSSLYITAVQPEDSATYFCAVD",
+        "sequence length(aa)": 91
+    },
+    "TRAV8-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVSQHNHHVILSEAASLELGCNYSYGGTVNLFWYVQYPGQHLQLLLKYFSGDPLVKGIKGFEAEFIKSKFSFNLRKPSVQWSDTAEYFCAVN",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVSQHNHHVILSEAASLELGCNYSYGGTVNLFWYVQYPGQHLQLLLKYFSGDPLVKGIKGVEAEFIKSKFSFNLRKPSVQW",
+        "sequence length(aa)": 83
+    },
+    "TRAV8-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSHVSVSEGTPVLLRCNYSSSYSPSLFWYVQHPNKGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCVVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLSSHVSVSEGTPVLLRCNYSSSYSPSLFWYVQHPNKGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCVV",
+        "sequence length(aa)": 93
+    },
+    "TRAV8-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSHVSVSEGTPVLLRCNYSSSYSPSLFWYVQHPNKGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCVVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDAAEYFCAVG",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDAAEYFCAVV",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-3*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDASEYFCA",
+        "sequence length(aa)": 92
+    },
+    "TRAV8-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-4*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-4*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTTGATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCA",
+        "sequence length(aa)": 92
+    },
+    "TRAV8-4*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSERALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-4*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLGSHVSVSEGALVLLRCNYSSSVPPYLFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPSAHMSDAAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-4*06": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GATHYCCPPILFWYVQYPNQGLQLLLKYTSAATLVKGINGFEAEFKKSETSFHLTKPAAHMSDAAEYFCAVS",
+        "sequence length(aa)": 72
+    },
+    "TRAV8-4*07": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "VEPYLFWYVQYPNQGLQLLLKYTTGATLVKGINGFEAEFKKSETSFHLTKPSAHMTDPAEYFCAV",
+        "sequence length(aa)": 65
+    },
+    "TRAV8-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSQVPVFEEAPVELRCNYSSSVSVYLFWYVQYPNQGLQLLLKYLSGSTLVESINGFEAEFNKSQTSFHLRKPSVHISDTAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AQSVTQLDSQVPVFEEAPVELRCNYSSSVSVYLFWYVQYPNQGLQLLLKYLSGSTLVKGINGFEAEFNKSQTSFHLRKPSVHISDTAEYFCAVS",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQSVTQLDGHITVSEEAPLELKCNYSYSGVPSLFWYVQYSSQSLQLLLKDLTEATQVKGIRGFEAEFKKSETSFYLRKPSTHVSDAAEYFCAVG",
+        "sequence length(aa)": 94
+    },
+    "TRAV8-7*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQSVTQLDGHITVSEEAPLELKCNYSYSGVPSLFWYVQYSSQSLQLLLKDLTKATQVKGIRGFEAEFKKSETSFYLRKPSTHVSDAAEYFCAVG",
+        "sequence length(aa)": 94
+    },
+    "TRAV9-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVVQTEGQVLPSEGDSLIVNCSYETTQYPSLFWYVQYPGEGPQLHLKAMKANDKGRNKGFEAMYRKETTSFHLEKDSVQESDSAVYFCALS",
+        "sequence length(aa)": 93
+    },
+    "TRAV9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCALS",
+        "sequence length(aa)": 93
+    },
+    "TRAV9-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCALS",
+        "sequence length(aa)": 93
+    },
+    "TRAV9-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GDSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCA",
+        "sequence length(aa)": 91
+    },
+    "TRAV9-2*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCA",
+        "sequence length(aa)": 91
+    },
+    "TRAJ1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YESITSQLQFGKGTRVSTSP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ10*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ILTGGGNKLTFGTGTQLKVEL",
+        "sequence length(aa)": 21
+    },
+    "TRAJ11*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGYSTLTFGKGTMLLVSP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ12*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "MDSSYKLIFGSGTRLLVRP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ13*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGYQKVTFGIGTKLQVIP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ13*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGYQKVTFGTGTKLQVIP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ14*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYSTFIFGSGTRLSVKP",
+        "sequence length(aa)": 17
+    },
+    "TRAJ15*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NQAGTALIFGKGTTLSVSS",
+        "sequence length(aa)": 19
+    },
+    "TRAJ15*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NQAGTALIFGKGTHLSVSS",
+        "sequence length(aa)": 19
+    },
+    "TRAJ16*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSDGQKLLFARGTMLKVDL",
+        "sequence length(aa)": 19
+    },
+    "TRAJ16*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSDGQKLLFARGTMLKVDL",
+        "sequence length(aa)": 19
+    },
+    "TRAJ17*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IKAAGNKLTFGGGTRVLVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ18*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DRGSTLGRLYFGRGTQLTVWP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ19*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YQRFYNFTFGKGSKHNVTP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGGTIDKLTFGKGTHVFIIS",
+        "sequence length(aa)": 21
+    },
+    "TRAJ20*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNDYKLSFGAGTTVTVRA",
+        "sequence length(aa)": 18
+    },
+    "TRAJ21*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YNFNKFYFGSGTKLNVKP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ22*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SSGSARQLTFGSGTQLTVLP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ23*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYNQGGKLIFGQGTELSVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ23*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IYNQGGKLIFGQGTELSVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ24*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKFEFGAGTQVVVTP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ24*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKLQFGAGTQVVVTP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ24*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTDSWGKFQFGAGTQVVVTP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ25*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EGQGFSFIFGKGTRLLVKP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ26*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DNYGQNFVFGPGTRLSVLP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ27*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTNAGKSTFGDGTTLTVKP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ28*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGAGSYQLTFGKGTKLSVIP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ29*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGNTPLVFGKGTRLSVIA",
+        "sequence length(aa)": 19
+    },
+    "TRAJ3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GYSSASKIIFGSGTRLSIRP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ30*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NRDDKIIFGKGTRLHILP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ31*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNARLMFGDGTQLVVKP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ32*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGATNKLIFGTGTLLAVQP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ32*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGATNKLIFGTGTLLAVQP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ33*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSNYQLIWGAGTKLIIKP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ34*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNTDKLIFGTGTRLQVFP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ35*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IGFGNVLHCGSGTQVIVLP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ36*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QTGANNLFFGTGTRLTVIP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ37*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GSGNTGKLIFGQGTTLQVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ37*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GSSNTGKLIFGQGTTLQVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ38*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGNNRKLIWGLGTSLAVNP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ39*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNAGNMLTFGGGTRLMVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "FSGGYNKLIFGAGTRLAVHP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ40*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TTSGTYKYIFGTGTRLKVLA",
+        "sequence length(aa)": 20
+    },
+    "TRAJ41*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSNSGYALNFGKGTSLLVTP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ42*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGGSQGNLIFGKGTKLSVKP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ43*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NNNDMRFGAGTRLTVKP",
+        "sequence length(aa)": 17
+    },
+    "TRAJ44*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGTASKLTFGTGTRLQVTL",
+        "sequence length(aa)": 20
+    },
+    "TRAJ45*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YSGGGADGLTFGKGTHLIIQP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ46*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KKSSGDKLTFGTGTRLAVRP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ47*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EYGNKLVFGAGTILRVKS",
+        "sequence length(aa)": 18
+    },
+    "TRAJ47*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EYGNKLVFGAGTILRVKS",
+        "sequence length(aa)": 18
+    },
+    "TRAJ48*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNFGNEKLTFGTGTRLTIIP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ49*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGNQFYFGTGTSLTVIP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGRRALTFGSGTRLQVQP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ50*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KTSYDKVIFGPGTSLSVIP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ51*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "MRDSYEKLIFGKET*LTVKP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ52*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGGTSYGKLTFGQGTILTVHP",
+        "sequence length(aa)": 22
+    },
+    "TRAJ53*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NSGGSNYKLTFGKGTLLTVNP",
+        "sequence length(aa)": 21
+    },
+    "TRAJ54*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IQGAQKLVFGQGTRLTINP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ55*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KCW*CSCWGKGMSTKINP",
+        "sequence length(aa)": 18
+    },
+    "TRAJ56*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YTGANSKLTFGKGITLSVRP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ57*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TQGGSEKLVFGKGTKLTVNP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ58*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "*ETSGSRLTFGEGTQLTVNP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ59*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KEGNRKFTFGMGTQVRVKL",
+        "sequence length(aa)": 19
+    },
+    "TRAJ6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ASGGSYIPTFGRGTSLIVHP",
+        "sequence length(aa)": 20
+    },
+    "TRAJ60*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KIT*MLNFGKGTELIVSL",
+        "sequence length(aa)": 18
+    },
+    "TRAJ61*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "YRVNRKLTFGANTRGIMKL",
+        "sequence length(aa)": 19
+    },
+    "TRAJ7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DYGNNRLAFGKGNQVVVIP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ8*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGFQKLVFGTGTRLLVSP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ8*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGFQKLVFGTGT*LLVSP",
+        "sequence length(aa)": 19
+    },
+    "TRAJ9*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GNTGGFKTIFGAGTRLFVKA",
+        "sequence length(aa)": 20
+    },
+    "TRBV1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGITQTPKYLVTAMGSKRTMKREHLGHDSMYWYRQKAKKSLEFMFYYNCKEFIENKTVPNHFTPECPDSSRLYLHVVALQQEDSAAYLCTSSQ",
+        "sequence length(aa)": 94
+    },
+    "TRBV10-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAEITQSPRHKITETGRQVTLACHQTWNHNNMFWYRQDLGHGLRLIHYSYGVQDTNKGEVSDGYSVSRSNTEDLPLTLESAASSQTSVYFCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAEITQSPRHKITETGRQVTLACHQTWNHNNMFWYRQDLGHGLRLIHYSYGVHDTNKGEVSDGYSVSRSNTEDLPLTLESAASSQTSVYFCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRYKITETGRQVTLMCHQTWSHSYMFWYRQDLGHGLRLIYYSAAADITDKGEVPDGYVVSRSKTENFPLTLESATRSQTSVYFCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRYKITETGRQVTLMCHQTWSHSYMFWYRQDLGHGLRLIYYSAAADITDKGEVPDGYVVSRSKTENFPLTLESATRSQTSVYFCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFCAISE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFCAISE",
+        "sequence length(aa)": 95
+    },
+    "TRBV10-3*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFC",
+        "sequence length(aa)": 91
+    },
+    "TRBV10-3*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGITQSPRHKVTETGTPVTLRCHQTENHRYMYWYRQDPGHGLRLIHYSYGVKDTDKGEVSDGYSVSRSKTEDFLLTLESATSSQTSVYFC",
+        "sequence length(aa)": 91
+    },
+    "TRBV11-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAEVAQSPRYKITEKSQAVAFWCDPISGHATLYWYRQILGQGPELLVQFQDESVVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAMYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV11-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV11-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLENSAVYLCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV11-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV11-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVVQSPRYKIIEKKQPVAFWCNPISGHNTLYWYLQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV11-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVVQSPRYKIIEKKQPVAFWCNPISGHNTLYWYRQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAVYLCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV11-3*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SPRYKIIEKKQPVAFWCNPISGHNTLYWYLQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAMYLCASS",
+        "sequence length(aa)": 89
+    },
+    "TRBV11-3*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVVQSPRYKIIEKKQPVAFWCNPISGHNTLYWYRQNLGQGPELLIRYENEEAVDDSQLPKDRFSAERLKGVDSTLKIQPAELGDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHKVTEMGQSVTLRCEPISGHNDLLWYRQTFVQGLELLNYFCSWTLVDDSGVSKD*FSAQMPDVSFSTLRIQPMEPRDLGLYFCASSF",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGIIQSPKHEVTEMGQTVTLRCEPIFGHNFLFWYRDTFVQGLELLSYFRS*SIIDNAGMPTERFSAERPDGSFSTLKIQPAEQGDSAVYVCASRL",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHNSLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHDYLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-4*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVIQSPRHEVTEMGQEVTLRCKPISGHDYLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLRIQPSEPRDSAVYFCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV12-5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DARVTQTPRHKVTEMGQEVTMRCQPILGHNTVFWYRQTMMQGLELLAYFRNRAPLDDSGMPKDRFSAEMPDATLATLKIQPSEPRDSAVYFCASGL",
+        "sequence length(aa)": 96
+    },
+    "TRBV13*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AAGVIQSPRHLIKEKRETATLKCYPIPRHDTVYWYQQGPGQDPQFLISFYEKMQSDKGSIPDRFSAQQFSDYHSELNMSSLELGDSALYFCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV13*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AAGVIQSPRHLIREKRETATLKCYPIPRHDTVYWYQQGPGQDPQFFISFYEKMQSDKGSIPDRFSAQQFSDYHSELNMSSLELGDSALYFCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV14*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQFPSHSVIEKGQTVTLRCDPISGHDNLYWYRRVMGKEIKFLLHFVKESKQDESGMPNNRFLAERTGGTYSTLKVQPAELEDSGVYFCASSQ",
+        "sequence length(aa)": 96
+    },
+    "TRBV14*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQFPSHSVIEKGQTVTLRCDPISGHDNLYWYRRVMGKEIKFLLHFVKESKQDESGMPNNRFLAERTGGTYSTLKVQPAELEDSGVYFCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV15*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYQVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYDKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDTAMYLCATSR",
+        "sequence length(aa)": 95
+    },
+    "TRBV15*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYQVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYDKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDAAMYLCATSR",
+        "sequence length(aa)": 95
+    },
+    "TRBV15*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAMVIQNPRYRVTQFGKPVTLSCSQTLNHNVMYWYQQKSSQAPKLLFHYYNKDFNNEADTPDNFQSRRPNTSFCFLDIRSPGLGDAAMYQCATS",
+        "sequence length(aa)": 94
+    },
+    "TRBV16*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEEVAQTPKHLVRGEGQKAKLYCAPIKGHSYVFWYQQVLKNEFKFLISFQNENVFDETGMPKERFSAKCLPNSPCSLEIQATKLEDSAVYFCASSQ",
+        "sequence length(aa)": 96
+    },
+    "TRBV16*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEEVAQTPKHLVRGEGQKAKLYCAPIKGHS*VFWYQQVLKNEFKFLISFQNENVFDETGMPKERFSAKCLPNSPCSLEIQATKLEDSAVYFCASSQ",
+        "sequence length(aa)": 96
+    },
+    "TRBV16*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GEEVAQTPKHLVRGEGQKAKLYCAPIKGHSYVFWYQQVLKNEFKFLVSFQNENVFDETGMPKERFSAKCLPNSPCSLEIQATKLEDSAVYFCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV17*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPGVSQTPRHKVTNMGQEVILRCDPSSGHMFVHWYRQNLRQEMKLLISFQYQNIAVDSGMPKERFTAERPNGTSSTLKIHPAEPRDSAVYLYSSG",
+        "sequence length(aa)": 95
+    },
+    "TRBV17*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPGVSQTPRHKVTNMGQEVILRCDPSSGHMFVHWYRQNLRQEMKLLISFQYQNIAVDSGMPKERFTAERPNGTSSTLKIHPAEPRDSAVYLYSSG",
+        "sequence length(aa)": 95
+    },
+    "TRBV18*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVMQNPRHLVRRRGQEARLRCSPMKGHSHVYWYRQLPEEGLKFMVYLQKENIIDESGMPKERFSAEFPKEGPSILRIQQVVRGDSAAYFCASSP",
+        "sequence length(aa)": 96
+    },
+    "TRBV19*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSI",
+        "sequence length(aa)": 95
+    },
+    "TRBV19*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQVPGQGLRLIYYSHIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSI",
+        "sequence length(aa)": 95
+    },
+    "TRBV19*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSHIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCAS",
+        "sequence length(aa)": 93
+    },
+    "TRBV2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPEVTQTPSHQVTQMGQEVILRCVPISNHLYFYWYRQILGQKVEFLVSFYNNEISEKSEIFDDQFSVERPDGSNFTLKIRSTKLEDSAMYFCASSE",
+        "sequence length(aa)": 96
+    },
+    "TRBV2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPEVTQTPSHQVTQMGQEVILHCVPISNHLYFYWYRQILGQKVEFLVSFYNNEISEKSEIFDDQFSVERPDGSNFTLKIRSTKLEDSAMYFCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EPEVTQTPSHQVTQMGQEVILRCVPISNHLYFYWYRQILGQKVEFLVSFYNNEISEKSEIFDDQFSVERPDGSNFTLKIRSTKLEDSAMYFCASSE",
+        "sequence length(aa)": 96
+    },
+    "TRBV20-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97
+    },
+    "TRBV20-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA",
+        "sequence length(aa)": 96
+    },
+    "TRBV20-1*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGCKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA",
+        "sequence length(aa)": 96
+    },
+    "TRBV20-1*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAS",
+        "sequence length(aa)": 97
+    },
+    "TRBV20-1*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97
+    },
+    "TRBV20-1*06": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA",
+        "sequence length(aa)": 96
+    },
+    "TRBV20-1*07": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMQIATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97
+    },
+    "TRBV20/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVVSQHPSRVICKSGTSVNIECRSLDFQATTMFWYRQLRKQSLMLMATSNEGSEVTYEQGVKKDKFPINHPNLTFSALTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97
+    },
+    "TRBV20/OR9-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAVVSQHPSRVICKSGTSVNIECRSLDFQATTMFWYRQLRKQSLMLMAASNEGSEVTYEQGVKKDKFPINHPNLTFSALTVTCAHPEDSSFYICSA",
+        "sequence length(aa)": 96
+    },
+    "TRBV20/OR9-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVVSQHPSRVICKSGTSVNIECRSLDFQATTMFWYRQLRKQSLMLMAASNEGSEVTYEQGVKKDKFPINHPNLTFSALTVTSAHPEDSSFYICSAR",
+        "sequence length(aa)": 97
+    },
+    "TRBV21-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTKVTQRPRLLVKASEQKAKMDCVPIKAHSYVYWYRKKLEEELKFLVYFQNEELIQKAEIINERFLAQCSKNSSCTLEIQSTESGDTALYFCASSK",
+        "sequence length(aa)": 96
+    },
+    "TRBV21-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTKVTQRPRLLAKASEQKAKMDCVPIKAHSYVYWYRKKLEEELKFLVYFQNEELIQKAEIINERFLAQCSKNSSCTLEIQSTESGDTALYFCASSK",
+        "sequence length(aa)": 96
+    },
+    "TRBV21/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTKVTQRPRFLVKANEQKAKMDCVPIKRHSYVYWYHKTLEEELKFFIYFQNEEIIQKAEIINERFSAQCPQNSPCTLEIQSTESGDTARYFCANSK",
+        "sequence length(aa)": 96
+    },
+    "TRBV23-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "HAKVTQTPGHLVKGKGQKTKMDCTPEKGHTFVYWYQQNQNKEFMLLISFQNEQVLQETEMHKKRFSSQCPKNAPCSLAILSSEPGDTALYLCASSQ",
+        "sequence length(aa)": 96
+    },
+    "TRBV23/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "HAKVTQTPGYLVKGKGRKTKMYCTPKNGHTFVCWYQQNQNKEFMFLISFQNEQVLQEMEMHKKRFSSQCPKNPPCSLAILSSEPGDTALYLCATSP",
+        "sequence length(aa)": 96
+    },
+    "TRBV23/OR9-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "HAKVTQTPGYLVKGKGRKTKMYCTPKNGHTFVCWYQQNQNKEFMFLISFQNEQVLQEMEMHKKRFSSQCPKNAPCSL",
+        "sequence length(aa)": 77
+    },
+    "TRBV24-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DADVTQTPRNRITKTGKRIMLECSQTKGHDRMYWYRQDPGLGLRLIYYSFDVKDINKGEISDGYSVSRQAQAKFSLSLESAIPNQTALYFCATSDL",
+        "sequence length(aa)": 96
+    },
+    "TRBV24-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DADVTQTPRNRITKTGKRIMLECSQTKGHDRMYWYRQDPGLGLQLIYYSFDVKDINKGEISDGYSVSRQAQAKFSLSLESAIPNQTALYFCATSDL",
+        "sequence length(aa)": 96
+    },
+    "TRBV24/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DADVTQTPRNRITKTGKRIMLECSQTKGHDRMYWYRQDPGLGLQLIYYSFDVKDINKGEISDGYSVSRQAQAKFSLSLESAIPNQTALYFCATSDL",
+        "sequence length(aa)": 96
+    },
+    "TRBV25-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EADIYQTPRYLVIGTGKKITLECSQTMGHDKMYWYQQDPGMELHLIHYSYGVNSTEKGDLSSESTVSRIRTEHFPLTLESARPSHTSQYLCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV26*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAVVTQFPRHRIIGTGKEFILQCSQNMNHVTMYWYRQDPGLGLKLVYYSPGTGSTEKGDISEGYHVS*NTIASFPLTLKSASTNQTSVYLYASSS",
+        "sequence length(aa)": 95
+    },
+    "TRBV26/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAVVTQFSRHRIIGTGKEFILLCPQNMNHVAMYWYRQNPGLGLKLVYYSPGTGSIEKGDVSERYHVS*NTIASFLLTLKSASTNQTCVYLCASSS",
+        "sequence length(aa)": 95
+    },
+    "TRBV26/OR9-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAVVTQFPRHRIIGTGKEFILLCPQNMNHVAMYWYRQNPGLGLKLVYYSPGTGSIEKGDVSERYHVS*NTIASFLLTLKSASTNQTCVYLCASSS",
+        "sequence length(aa)": 95
+    },
+    "TRBV27*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAQVTQNPRYLITVTGKKLTVTCSQNMNHEYMSWYRQDPGLGLRQIYYSMNVEVTDKGDVPEGYKVSRKEKRNFPLILESPSPNQTSLYFCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV28*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DVKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILESASTNQTSMYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV29-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSLTIQCQVDSQVTMMFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSTLTVSNMSPEDSSIYLCSVE",
+        "sequence length(aa)": 96
+    },
+    "TRBV29-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSLTIQCQVDSQVTMMFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSSLTVSNMSPEDSSIYLCSVE",
+        "sequence length(aa)": 96
+    },
+    "TRBV29-1*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TIQCQVDSQVTMIFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSTLTVSNMSPEDSSIYLCSAG",
+        "sequence length(aa)": 77
+    },
+    "TRBV29/OR9-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSMMIQCQVDSQVTMMFWYCQQPGQSLTLIATANQGSEATYESRFVIDKFPISRPNLTFSTLTVSNRRPEDSSIYLCSVE",
+        "sequence length(aa)": 96
+    },
+    "TRBV29/OR9-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SAVISQKPSRDICQRGTSMMIQCQVDSQVTMMFWYCQQPGQSVTLIATANQGSEATYESRFVIDKFPISRPNLTFSTLTVSNRRPEDSSIYLCSVE",
+        "sequence length(aa)": 96
+    },
+    "TRBV3-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGNDKSIKCEQNLGHDTMYWYKQDSKKFLKIMFSYNNKELIINETVPNRFSPKSPDKAHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV3-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGNDKSIKCEQNLGHDTMYWYKQDSKKFLKIMFSYNNKEIIINETVPNRFSPKSPDKAKLNLHINSLELGDSAVYFCAS",
+        "sequence length(aa)": 93
+    },
+    "TRBV3-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGKKESLK*EQNLGHNAMYWYKQDSKKFLKTMFIYSNKEPILNETVPNRFSPDSPDKAHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV3-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQMGKKESLK*EQNLGHNAMYWYKQDSKKFLKTMFIYSNKEPILNETVPNRFSPDSPDKVHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV3-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTAVSQTPKYLVTQTGKKESLK*EQNLGHNAMYWYKQDSKKFLKTMFIYSNKEPILNETVPNRFSPDSPDKVHLNLHINSLELGDSAVYFCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV30*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94
+    },
+    "TRBV30*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94
+    },
+    "TRBV30*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWY*QAAGRGLQLLFYSVGIGQISSEVPQNLSASRSQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 94
+    },
+    "TRBV30*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSIGIDQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWS",
+        "sequence length(aa)": 92
+    },
+    "TRBV30*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWG",
+        "sequence length(aa)": 94
+    },
+    "TRBV4-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTEVTQTPKHLVMGMTNKKSLKCEQHMGHRAMYWYKQKAKKPPELMFVYSYEKLSINESVPSRFSPECPNSSLLNLHLHALQPEDSALYLCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV4-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "HLVMGMTNKKSLKCEQHMGHRAMYWYKQKAKKPPELMFVYSYEKLSINESVPSRFSPECPNSSLLNLHLHALQPEDSALYLCASSQ",
+        "sequence length(aa)": 86
+    },
+    "TRBV4-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYNFKEQTENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV4-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYNFKEQTENNSVPSRFSPECPNSSHLCLHLHTLQPEDSALYLCAST",
+        "sequence length(aa)": 94
+    },
+    "TRBV4-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASSQ",
+        "sequence length(aa)": 95
+    },
+    "TRBV4-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLSLHLHTLQPEDSALYLCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV4-3*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQTPRHLVMGMTNKKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV4-3*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KKSLKCEQHLGHNAMYWYKQSAKKPLELMFVYSLEERVENNSVPSRFSPECPNSSHLFLHLHTLQPEDSALYLCASS",
+        "sequence length(aa)": 77
+    },
+    "TRBV5-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "KAGVTQTPRYLIKTRGQQVTLSCSPISGHRSVSWYQQTPGQGLQFLFEYFSETQRNKGNFPGRFSGRQFSNSRSEMNVSTLELGDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-1*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "RAGVTQTPRHLIKTRGQQVTLGCSPISGHRSVSWYQQTLGQGLQFLFEYFSETQRNKGNFLGRFSGRQFSNSRSEMNVSTLELGDSALYLCAS",
+        "sequence length(aa)": 93
+    },
+    "TRBV5-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQSPTHLIKTRGQQVTLRCSPISGHSSVSWYQQAPGQGPQFIFEYANELRRSEGNFPNRFSGRQFHDCCSEMNVSALELGDSALYLCARSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQSPTHLIKTRGQQVTLRCSPISGHSSVSWYQQAPGQGPQFIFEYANELRRSEGNFPNRFSGRQFHDYCSEMNVSALELGDSALYLCARSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQSPTHLIKTRGQQVTLRCSSQSGHNTVSWYQQALGQGPQFIFQYYREEENGRGNFPPRFSGLQFPNYSSELNVNALELDDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-4*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ETGVTQSPTHLIKTRGQQVTLRCSSQSGHNTVSWYQQALGQGPQFIFQYYREEENGRGNFPPRFSGLQFPNYNSELNVNALELDDSALYLCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV5-4*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QQVTLRCSSQSGHNTVSWYQQALGQGPQFIFQYYREEENGRGNFPPRFSGLQFPNYSSELNVNALELDDSALYLCASS",
+        "sequence length(aa)": 78
+    },
+    "TRBV5-4*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TVSWYQQALGQGPQFIFQYYREEENGRGNSPPRFSGLQFPNYSSELNVNALELDDSALYLCASS",
+        "sequence length(aa)": 64
+    },
+    "TRBV5-5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPISGHKSVSWYQQVLGQGPQFIFQYYEKEERGRGNFPDRFSARQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-5*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQHVTLRCSPISGHKSVSWYQQVLGQGPQFIFQYYEKEERGRGNFPDRFSARQFPNYSSELNVNALLLGDSALYLCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV5-5*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPISEHKSVSWYQQVLGQGPQFIFQYYEKEERGRGNFPDRFSARQFPNYSSELNVNALLLGDSALYLCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV5-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQQVTLRCSPKSGHDTVSWYQQALGQGPQFIFQYYEEEERQRGNFPDRFSGHQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DAGVTQSPTHLIKTRGQHVTLRCSPISGHTSVSSYQQALGQGPQFIFQYYEKEERGRGNFPDQFSGHQFPNYSSELNVNALLLGDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-8*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "EAGVTQSPTHLIKTRGQQATLRCSPISGHTSVYWYQQALGLGLQFLLWYDEGEERNRGNFPPRFSGRQFPNYSSELNVNALELEDSALYLCASSL",
+        "sequence length(aa)": 95
+    },
+    "TRBV5-8*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GQQATLRCSPISGHTSVYWYQQALGLGLQLLLWYDEGEERNRGNFPPRFSGRQFPNYSSELNVNALELEDSALYLCASS",
+        "sequence length(aa)": 79
+    },
+    "TRBV6-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSE",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "IAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSD",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-4*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TAGITQAPTSQILAAGRSMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSD",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCTQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCAQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-6*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCAQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV6-6*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCTQDMNHEYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSR",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-6*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFRILKIGQSMTLQCAQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAASQTSVYFCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBV6-7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFHVLKTGQSMTLLCAQDMNHEYMYRYRQDPGKGLRLIYYSVAAALTDKGEVPNGYNVSRSNTEDFPLKLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV6-8*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFHILKTGQSMTLQCAQDMNHGYMSWYRQDPGMGLRLIYYSAAAGTTDKEVPNGYNVSRLNTEDFPLRLVSAAPSQTSVYLCASSY",
+        "sequence length(aa)": 94
+    },
+    "TRBV6-9*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NAGVTQTPKFHILKTGQSMTLQCAQDMNHGYLSWYRQDPGMGLRRIHYSVAAGITDKGEVPDGYNVSRSNTEDFPLRLESAAPSQTSVYFCASSY",
+        "sequence length(aa)": 95
+    },
+    "TRBV7-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSLRHKVAKKGKDVALRYDPISGHNALYWYRQSLGQGLEFPIYFQGKDAADKSGLPRDRFSAQRSEGSISTLKFQRTQQGDLAVYLCASSS",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGGSVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQRLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGESVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-2*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQRLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGESVSTLTIQRTQQEDSAVYLCTSSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-2*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGLEFLIYFQGNSAPDKSGLPSDRFSAERTGGSVSTLTIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQTPSNKVTEKGKYVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPNDRFFAVRPEGSVSTLKIQRTERGDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-3*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQTPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPKDRFFAVRPEGSVSTLKIQRTEQGDSAVYLRASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-3*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQTPSNKVTEKGKDVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPKDRFFAVRPEGSVSTLKIQRTEQGDSAAYLRASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-3*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQTPSNKVTEKGKYVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPNDRFFAVRPEGSVSTLKIQRTERGDSAVYLCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV7-3*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "WELRCDPISGHTALYWYRQSLGQGPELLIYFQGTGAADDSGLPNDRFFAVRPEGSVSTLKIQRTERGDSAVYLCASS",
+        "sequence length(aa)": 77
+    },
+    "TRBV7-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGRDVALRCDSISGHVTLYWYRQTLGQGSEVLTYSQSDAQRDKSGRPSGRFSAERPERSVSTLKIQRTEQGDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV7-7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVTLRCDPISSHATLYWYQQALGQGPEFLTYFNYEAQPDKSGLPSDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-7*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVTKRGQDVTLRCDPISSHVTLYWYQQALGQGPEFLTYFNYEAQPDKSGLPSDRFSAERPEGSISTLTIQRTEQRDSAMYRCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV7-8*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQQEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-8*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQKEDSAVYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-8*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GAGVSQSPRYKVAKRGQDVALRCDPISGHVSLFWYQQALGQGPEFLTYFQNEAQLDKSGLPSDRFFAERPEGSVSTLKIQRTQQEDSAVYLCASSR",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHNITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQDPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*04": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "ISGVSHNPRHKITKRGQNVTFRCDPISEHNRLYWYRQNPGQGPEFLTYFQNEAQLEKSGLLSDRISAERPKGSFSTLEIQRTEQGDSAMYLCASS",
+        "sequence length(aa)": 95
+    },
+    "TRBV7-9*05": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSLSTLEIQRTEQGDSAMYLCASTK",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*06": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSLSTLEIQRTEQGDSAMYLCASTL",
+        "sequence length(aa)": 96
+    },
+    "TRBV7-9*07": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "HNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEEGDSAMYLCASS",
+        "sequence length(aa)": 67
+    },
+    "TRBV9*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIQYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSV",
+        "sequence length(aa)": 95
+    },
+    "TRBV9*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIHYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSV",
+        "sequence length(aa)": 95
+    },
+    "TRBV9*03": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIQYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASS",
+        "sequence length(aa)": 94
+    },
+    "TRBD1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GTGG",
+        "sequence length(aa)": 4
+    },
+    "TRBD2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GTSGG",
+        "sequence length(aa)": 5
+    },
+    "TRBD2*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "GTSGR",
+        "sequence length(aa)": 5
+    },
+    "TRBJ1-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTEAFFGQGTRLTVV",
+        "sequence length(aa)": 15
+    },
+    "TRBJ1-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NYGYTFGSGTRLTVV",
+        "sequence length(aa)": 15
+    },
+    "TRBJ1-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGNTIYFGEGSWLTVV",
+        "sequence length(aa)": 16
+    },
+    "TRBJ1-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "TNEKLFFGSGTQLSVL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ1-5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SNQPQHFGDGTRLSIL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ1-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNSPLHFGNGTRLTVT",
+        "sequence length(aa)": 17
+    },
+    "TRBJ1-6*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNSPLHFGNGTRLTVT",
+        "sequence length(aa)": 17
+    },
+    "TRBJ2-1*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYNEQFFGPGTRLTVL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ2-2*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "NTGELFFGEGSRLTVL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ2-2P*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "LRGAAGRLGGGLLVL",
+        "sequence length(aa)": 15
+    },
+    "TRBJ2-3*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "STDTQYFGPGTRLTVL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ2-4*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "AKNIQYFGAGTRLSVL",
+        "sequence length(aa)": 16
+    },
+    "TRBJ2-5*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "QETQYFGPGTRLLVL",
+        "sequence length(aa)": 15
+    },
+    "TRBJ2-6*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SGANVLTFGAGSRLTVL",
+        "sequence length(aa)": 17
+    },
+    "TRBJ2-7*01": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYEQYFGPGTRLTVT",
+        "sequence length(aa)": 15
+    },
+    "TRBJ2-7*02": {
+        "species": "Homo sapiens",
+        "amino acid sequence": "SYEQYVGPGTRLTVT",
+        "sequence length(aa)": 15
+    }
+}

@@ -27,7 +27,7 @@ def plot_non_empty_percentage(df, database):
 
 
 # Reconstruct TCR variable sequence
-def reconstruct_vseq(data):
+def reconstruct_vseq(data, vgene_start=-30, jgene_end=-5):
     """
     Input: "vgene_seq-cdr3-jgene_seq"
     Return: 
@@ -38,15 +38,52 @@ def reconstruct_vseq(data):
     cdr3 = data.split('-')[1]
     jgene_seq = data.split('-')[2]
 
-    # cut vgene seq, eg. CA: ..YL|CAVT
+    # (vgene_seq1) + vgene_seq2
+    vgene_seq1 = vgene_seq[:vgene_start]
+    vgene_seq2 = vgene_seq[vgene_start:]
+    # jgene_seq1 + (jgene_seq2)
+    jgene_seq1 = jgene_seq[:jgene_end]
+    jgene_seq2 = jgene_seq[jgene_end:]
+
+    # cut vgene seq, eg. CA: ..YL|CA|VT
     cdr3_start = cdr3[:2]
-    vgene_seq_end = vgene_seq.rfind(cdr3_start)                         # last position
+    vgene_seq_end = vgene_seq2.rfind(cdr3_start)                         # last position
+    
+    if vgene_seq_end == -1:
+        cdr3_start = cdr3[:1]
+        vgene_seq_end = vgene_seq2.rfind(cdr3_start)
 
-    # cut jgene seq, eg. LQ: GKLQ|FG..
-    cdr3_end = cdr3[-2:]
-    jgene_seq_start = jgene_seq.find(cdr3_end) + len(cdr3_end)          # first position + 2    
+    # cut jgene seq, eg. F: GKLQ|F|G..
+    cdr3_end = cdr3[-1:]
+    jgene_seq_start = jgene_seq1.rfind(cdr3_end) + len(cdr3_end)         # first position + 2    
 
-    if (vgene_seq_end != -1) & (jgene_seq_start != (-1+len(cdr3_end))): # + len(cdr3_end) !!!
-        return vgene_seq[:vgene_seq_end] + cdr3 + jgene_seq[jgene_seq_start:]
+    # concatenate
+    if (vgene_seq_end != -1) & (jgene_seq_start != (-1+len(cdr3_end))): # + len(cdr3_end)
+        return vgene_seq1 + vgene_seq2[:vgene_seq_end] + cdr3 + jgene_seq1[jgene_seq_start:] + jgene_seq2
     else:
         return '(UNK)'
+
+
+# def reconstruct_vseq(data):
+#     """
+#     Input: "vgene_seq-cdr3-jgene_seq"
+#     Return: 
+#         - If succeed, return "reconstructed sequence"
+#         - If fail, return "(UNK)"
+#     """
+#     vgene_seq = data.split('-')[0]
+#     cdr3 = data.split('-')[1]
+#     jgene_seq = data.split('-')[2]
+
+#     # cut vgene seq, eg. CA: ..YL|CAVT
+#     cdr3_start = cdr3[:2]
+#     vgene_seq_end = vgene_seq.rfind(cdr3_start)                         # last position
+
+#     # cut jgene seq, eg. LQ: GKLQ|FG..
+#     cdr3_end = cdr3[-2:]
+#     jgene_seq_start = jgene_seq.find(cdr3_end) + len(cdr3_end)          # first position + 2    
+
+#     if (vgene_seq_end != -1) & (jgene_seq_start != (-1+len(cdr3_end))): # + len(cdr3_end) !!!
+#         return vgene_seq[:vgene_seq_end] + cdr3 + jgene_seq[jgene_seq_start:]
+#     else:
+#         return '(UNK)'
