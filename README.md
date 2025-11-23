@@ -1,15 +1,15 @@
 # Machine Learning Dataset and Benchmark for Accurate T Cell Receptor-pHLA Binding Prediction
 
-This repository contains the **Hi-TpH** dataset, a large-scale **Hi**erarchical dataset for **T**CR-**pH**LA binding prediction, and corresponding codes used for data collection and benchmarks.
+This repository contains the **Hi-TPH** dataset, a large-scale **Hi**erarchical dataset for **T**CR-**pH**LA binding prediction, and corresponding codes used for data collection and benchmarks.
 
 
 
-## Overview of Hi-TpH
+## 🌟 Overview of Hi-TPH
 
 ![overview](./assets/overview.png)
 
 
-## Dependency
+## ⚙️ Dependency
 
 Install basic packages using `env.yaml`/`requirements.txt` or the following instructions:
 
@@ -50,7 +50,7 @@ conda install matplotlib seaborn jupyter notebook
 ```
 
 
-## Data Curation
+## 🔍 Data Curation
 
 > [`./data_preprocess`](./data_preprocess/) -> [`./data`](./data/) 
 
@@ -148,11 +148,22 @@ conda install matplotlib seaborn jupyter notebook
 </tr>
 <tr>
 <td colspan=2 style="font-weight:bold"> Hi-TpH-hla_allele2seq.json </td>
-<td colspan=9>A dictionary for mapping from HLA allele to HLA amino acid sequences</td>
+<td colspan=9>Dictionary for mapping HLA allele to HLA amino acid sequences (customized for Hi-TPH)</td>
 </tr>
 <tr>
 <td colspan=2 style="font-weight:bold"> Hi-TpH-tcr_gene2seq.json </td>
-<td colspan=9>A dictionary for mapping from TCR gene name to amino acid sequences</td>
+<td colspan=9>Dictionary for mapping TCR gene name to amino acid sequences (customized for Hi-TPH)</td>
+</tr>
+<tr>
+<td colspan=11></td>
+</tr>
+<tr>
+<td colspan=2 style="font-weight:bold"> hla_allele2seq.json </td>
+<td colspan=9>Dictionary for mapping HLA allele to HLA amino acid sequences</td>
+</tr>
+<tr>
+<td colspan=2 style="font-weight:bold"> tcr_gene2seq.json </td>
+<td colspan=9>Dictionary for mapping TCR gene name to amino acid sequences</td>
 </tr>
 </table>
 
@@ -164,11 +175,11 @@ conda install matplotlib seaborn jupyter notebook
 - [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv) -->
 
 
-## Run Benchmarks
+## 📊 Run Benchmarks
 
-> We have temporarily uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).
+> 🚀 We have temporarily uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).
 
-The split level1~level4 benchmark datasets are saved in [`./benchmarks_dataset`](./benchmarks_dataset/) .
+The split Level I-IV benchmark datasets are saved in [`./benchmarks_dataset`](./benchmarks_dataset/) .
 
 <!-- - You can also prepare benchmark datasets from scratch (see `prepare_benchmark_data.ipynb`). -->
 

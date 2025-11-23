@@ -1,0 +1,558 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "Hi-TPH",
+  "description": "A Large-Scale Hierarchical Dataset for TCR-pHLA Binding Prediction.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "url": "https://github.com/Jiadong001/Hi-TpH",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "github-repository",
+      "name": "github-repository",
+      "description": "Hi-TPH repository on GitHub.",
+      "contentUrl": "https://github.com/Jiadong001/Hi-TpH",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "level-I.csv",
+      "name": "level-I.csv",
+      "description": "Hi-TPH level I csv file is hosted on the GitHub repository.",
+      "containedIn": {
+        "@id": "github-repository"
+      },
+      "contentUrl": "data/Hi-TpH-level-I.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "level-II.csv",
+      "name": "level-II.csv",
+      "description": "Hi-TPH level II csv file is hosted on the GitHub repository.",
+      "containedIn": {
+        "@id": "github-repository"
+      },
+      "contentUrl": "data/Hi-TpH-level-II.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "level-III.csv",
+      "name": "level-III.csv",
+      "description": "Hi-TPH level III csv file is hosted on the GitHub repository.",
+      "containedIn": {
+        "@id": "github-repository"
+      },
+      "contentUrl": "data/Hi-TpH-level-III.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "level-IV.csv",
+      "name": "level-IV.csv",
+      "description": "Hi-TPH level IV csv file is hosted on the GitHub repository.",
+      "containedIn": {
+        "@id": "github-repository"
+      },
+      "contentUrl": "data/Hi-TpH-level-IV.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "level-I",
+      "name": "level-I",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "level-I/antigen.epitope",
+          "name": "antigen.epitope",
+          "description": "Peptide sequence of the antigen epitope.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-I.csv"
+            },
+            "extract": {
+              "column": "antigen.epitope"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-I/beta.cdr3",
+          "name": "beta.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-I.csv"
+            },
+            "extract": {
+              "column": "beta.cdr3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "level-II",
+      "name": "level-II",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/antigen.epitope",
+          "name": "antigen.epitope",
+          "description": "Peptide sequence of the antigen epitope.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "antigen.epitope"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/hla.allele",
+          "name": "hla.allele",
+          "description": "HLA allele name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "hla.allele"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/beta.cdr3",
+          "name": "beta.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "beta.cdr3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/hla.full.seq",
+          "name": "hla.full.seq",
+          "description": "Full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "hla.full.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/hla.clip.seq",
+          "name": "hla.clip.seq",
+          "description": "Amino acid sequence of HLA alpha-1 and alpha-2 domains, which is clipped from the full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "hla.clip.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-II/hla.short.seq",
+          "name": "hla.short.seq",
+          "description": "HLA pseudo sequence, extracted from HLA alpha-1 and alpha-2 domains.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-II.csv"
+            },
+            "extract": {
+              "column": "hla.short.seq"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "level-III",
+      "name": "level-III",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/antigen.epitope",
+          "name": "antigen.epitope",
+          "description": "Peptide sequence of the antigen epitope.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "antigen.epitope"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/hla.allele",
+          "name": "hla.allele",
+          "description": "HLA allele name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "hla.allele"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/alpha.cdr3",
+          "name": "alpha.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR alpha chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "alpha.cdr3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/beta.cdr3",
+          "name": "beta.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "beta.cdr3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/hla.full.seq",
+          "name": "hla.full.seq",
+          "description": "Full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "hla.full.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/hla.clip.seq",
+          "name": "hla.clip.seq",
+          "description": "Amino acid sequence of HLA alpha-1 and alpha-2 domains, which is clipped from the full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "hla.clip.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-III/hla.short.seq",
+          "name": "hla.short.seq",
+          "description": "HLA pseudo sequence, extracted from HLA alpha-1 and alpha-2 domains.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-III.csv"
+            },
+            "extract": {
+              "column": "hla.short.seq"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "level-IV",
+      "name": "level-IV",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/antigen.epitope",
+          "name": "antigen.epitope",
+          "description": "Peptide sequence of the antigen epitope.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "antigen.epitope"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/hla.allele",
+          "name": "hla.allele",
+          "description": "HLA allele name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "hla.allele"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/alpha.v",
+          "name": "alpha.v",
+          "description": "V gene segment of TCR alpha chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "alpha.v"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/alpha.j",
+          "name": "alpha.j",
+          "description": "J gene segment of TCR alpha chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "alpha.j"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/alpha.cdr3",
+          "name": "alpha.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR alpha chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "alpha.cdr3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/beta.v",
+          "name": "beta.v",
+          "description": "V gene segment of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "beta.v"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/beta.j",
+          "name": "beta.j",
+          "description": "J gene segment of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "beta.j"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/beta.cdr3",
+          "name": "beta.cdr3",
+          "description": "Complementarity Determining Region 3 (CDR3) amino acid sequence of TCR beta chain.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "beta.cdr3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/alpha.vseq.reconstructed",
+          "name": "alpha.vseq.reconstructed",
+          "description": "Reconstructed variable domain sequence of TCR alpha chain using V/J gene annotations and CDR3 sequences.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "alpha.vseq.reconstructed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/beta.vseq.reconstructed",
+          "name": "beta.vseq.reconstructed",
+          "description": "Reconstructed variable domain sequence of TCR beta chain using V/(D/)J gene annotations and CDR3 sequences.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "beta.vseq.reconstructed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/hla.full.seq",
+          "name": "hla.full.seq",
+          "description": "Full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "hla.full.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/hla.clip.seq",
+          "name": "hla.clip.seq",
+          "description": "Amino acid sequence of HLA alpha-1 and alpha-2 domains, which is clipped from the full HLA protein sequence.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "hla.clip.seq"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "level-IV/hla.short.seq",
+          "name": "hla.short.seq",
+          "description": "HLA pseudo sequence, extracted from HLA alpha-1 and alpha-2 domains.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "level-IV.csv"
+            },
+            "extract": {
+              "column": "hla.short.seq"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
