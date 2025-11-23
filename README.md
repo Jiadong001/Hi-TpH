@@ -175,8 +175,8 @@ The split level1~level4 benchmark datasets are saved in [`./benchmarks_dataset`]
 Train models using benchmark datasets of different levels (see [`./benchmarks`](./benchmarks/)):
 
 - [Settings] First, change the path in the following file to your own：
-  - `bash` files in [`./benchmarks/scripts`](./benchmarks/scripts/) folder: ``**_path``, e.g., ``data_path``.
-  - `data_loader.py` and `plm_models.py`: ``**_checkpoint``, e.g., ``esm2_8b_checkpoint``.
+  - `bash` files in [`./benchmarks/scripts`](./benchmarks/scripts/): ``**_path``, e.g., ``data_path``.
+  - `plm_models.py` in [`./benchmarks`](./benchmarks): ``**_checkpoint``, e.g., ``esm2_8m_checkpoint``.
 
 - [Training] See `./benchmarks/scripts/train_**.sh` to run `train_main.py` for training models.
   - If **finetune** PLMs, you need to **add a line to the script** with the parameter ``--finetune``; if not finetune PLMs, remove it.
