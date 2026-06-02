@@ -431,13 +431,13 @@ def data_loader(data_path, batch_size, fold, rand_neg, num_workers, pep_max_len,
     # test_df = test_df.drop_duplicates(ignore_index=True)
     print(train_df.columns, test_df.columns)
 
-    if os.path.exists(os.path.join(data_path,"external_data.csv")):
-        print("Found external data")
-        external_df = pd.read_csv(os.path.join(data_path,"external_data.csv"))
+    if os.path.exists(os.path.join(data_path,"unseen_data.csv")):
+        print("Found external data (unseen set)")
+        external_df = pd.read_csv(os.path.join(data_path,"unseen_data.csv"))
         external_df = external_df[comp_cols+['label']]
         # external_df = external_df.drop_duplicates(ignore_index=True)
     else:
-        print("Not found external data")
+        print("Not found external data (unseen set)")
         external_df = None
     
     if (('ab_cdr3' in comp_cols) or ('beta_cdr3' in comp_cols)) and os.path.exists(os.path.join(data_path, "tcr2candidates_pools_ab_cdr3.npy")):
@@ -547,7 +547,7 @@ def immrep2023_data_loader(data_path, batch_size, fold, rand_neg, num_workers, p
     else:
         train_df = pd.read_csv(os.path.join(data_path,"filtered_train_data_fold{}.csv".format(fold)))
         valid_df = pd.read_csv(os.path.join(data_path,"filtered_valid_data_fold{}.csv".format(fold)))
-    test_df = pd.read_csv(os.path.join(data_path,"immrep2023_restricted.csv".format(fold)))
+    test_df = pd.read_csv(os.path.join(data_path,f"immrep2023_level{base_level}_components.csv".format(fold)))
 
     # Extract required components
     train_df = train_df[comp_cols+['label']]
