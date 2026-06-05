@@ -52,13 +52,11 @@ conda install matplotlib seaborn jupyter notebook
 
 ## 🔍 Data Curation
 
-> [`./data_preprocess`](./data_preprocess/) -> [`./data`](./data/) 
+1. [`data_preprocess`](./data_preprocess/) folder descripes detailed data collection and processing procedures.
 
-[`./data_preprocess`](./data_preprocess/) folder descripes detailed data collection and processing procedures.
+    - check [`data_preprocess/README.md`](./data_preprocess/README.md) for instructions.
 
-- check [`./data_preprocess/README.md`](./data_preprocess/README.md) for instructions.
-
-[`./data`](./data/) details:
+2. [`data`](./data/) details:
 
 <table style="text-align:center">
 <tr>
@@ -175,24 +173,20 @@ conda install matplotlib seaborn jupyter notebook
 - [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv) -->
 
 
-## 📊 Run Benchmarks
+## 📊 Benchmarks
 
-> 🚀 We have temporarily uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).
+1. The split Level I-IV benchmark datasets are saved in [`benchmarks_dataset`](./benchmarks_dataset/) folder.
 
-The split Level I-IV benchmark datasets are saved in [`./benchmarks_dataset`](./benchmarks_dataset/) .
+2. Run benchmarks of different levels as follows (in [`benchmarks`](./benchmarks/) folder):
 
-<!-- - You can also prepare benchmark datasets from scratch (see `prepare_benchmark_data.ipynb`). -->
+    - [Settings] First, change the path in the following file to your own：
+      - `bash` files in [`benchmarks/scripts`](./benchmarks/scripts/): ``**_path``, e.g., ``data_path``.
+      - `plm_models.py` in [`benchmarks`](./benchmarks): ``**_checkpoint``, e.g., ``esm2_8m_checkpoint``.
 
-Train models using benchmark datasets of different levels (see [`./benchmarks`](./benchmarks/)):
+    - [Training] See `benchmarks/scripts/train_**.sh` to run `train_main.py` for training models.
+      - If **finetune** PLMs, you need to **add a line to the script** with the parameter ``--finetune``; if not finetune PLMs, remove it.
 
-- [Settings] First, change the path in the following file to your own：
-  - `bash` files in [`./benchmarks/scripts`](./benchmarks/scripts/): ``**_path``, e.g., ``data_path``.
-  - `plm_models.py` in [`./benchmarks`](./benchmarks): ``**_checkpoint``, e.g., ``esm2_8m_checkpoint``.
+    - [Evaluation] After Training, you can test the model with `test_main.py`.
+      - See `benchmarks/scripts/eval_**.sh` to run `test_main.py`
 
-- [Training] See `./benchmarks/scripts/train_**.sh` to run `train_main.py` for training models.
-  - If **finetune** PLMs, you need to **add a line to the script** with the parameter ``--finetune``; if not finetune PLMs, remove it.
-
-- [Evaluation] After Training, you can test the model with `test_main.py`.
-  - See `./benchmarks/scripts/eval_**.sh` to run `test_main.py`
-
-
+> **We have uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).**
