@@ -165,13 +165,6 @@ conda install matplotlib seaborn jupyter notebook
 </tr>
 </table>
 
-<!-- - [1] [IEDB](https://www.iedb.org/)
-- [2] [VDJdb](https://github.com/antigenomics/vdjdb-db/releases)
-- [3] [McPAS-TCR](http://friedmanlab.weizmann.ac.il/McPAS-TCR/)
-- [4] [ImmuneCODE-MIRA](https://clients.adaptivebiotech.com/pub/covid-2020)
-- [5] [STAPLER data](https://files.aiforoncology.nl/stapler/data/)
-- [6] [IMMREP2023](https://github.com/justin-barton/IMMREP23/blob/main/data/solutions.csv) -->
-
 
 ## 📊 Benchmarks
 
@@ -179,14 +172,27 @@ conda install matplotlib seaborn jupyter notebook
 
 2. Run benchmarks of different levels as follows (in [`benchmarks`](./benchmarks/) folder):
 
-    - [Settings] First, change the path in the following file to your own：
+    - **[Settings]** First, change the path in the following file to your own：
       - `bash` files in [`benchmarks/scripts`](./benchmarks/scripts/): ``**_path``, e.g., ``data_path``.
       - `plm_models.py` in [`benchmarks`](./benchmarks): ``**_checkpoint``, e.g., ``esm2_8m_checkpoint``.
 
-    - [Training] See `benchmarks/scripts/train_**.sh` to run `train_main.py` for training models.
+    - **[Training]** See `benchmarks/scripts/train_**.sh` to run `train_main.py` for training models.
       - If **finetune** PLMs, you need to **add a line to the script** with the parameter ``--finetune``; if not finetune PLMs, remove it.
 
-    - [Evaluation] After Training, you can test the model with `test_main.py`.
+    - **[Evaluation]** After Training, you can test the model with `test_main.py`.
       - See `benchmarks/scripts/eval_**.sh` to run `test_main.py`
 
-> **We have uploaded checkpoints of Hi-TPH-PLMs to [Google Drive](https://drive.google.com/drive/folders/13gv3wWejcQPgogAQr6AwAi5eAdfMWDlP?usp=sharing).**
+**Note: we have uploaded checkpoints of Hi-TPH-PLMs to [HuggingFace🤗: Jiadong001/Hi-TPH-PLMs](https://huggingface.co/Jiadong001/Hi-TPH-PLMs).**
+
+
+## 👍 Acknowledgements
+
+We thank the developers and maintainers of the public biological databases and datasets that enabled this work, including:
+- [Immune Epitope Database (IEDB)](https://www.iedb.org)
+- [VDJdb](https://github.com/antigenomics/vdjdb-db/releases/tag/2023-06-01)
+- [McPAS-TCR](http://friedmanlab.weizmann.ac.il/McPAS-TCR)
+- [ImmuneCODE](https://clients.adaptivebiotech.com/pub/covid-2020)
+- [IMMREP2023 evaluation dataset](https://github.com/justin-barton/IMMREP23)
+- IMGT (Reference amino acid sequences for [HLA alleles](https://github.com/ANHIG/IMGTHLA/blob/Latest) and [human TCR genes](https://www.imgt.org/vquest/refseqh.html))
+- Open datasets from published/preprint studies (e.g., [STAPLER](https://files.aiforoncology.nl/stapler/data/))
+
