@@ -1,6 +1,18 @@
-# Machine Learning Dataset and Benchmark for Accurate T Cell Receptor-pHLA Binding Prediction
+<h1 align="center">Machine Learning Dataset and Benchmark for Accurate T Cell Receptor-pHLA Binding Prediction</h1>
 
-This repository contains the **Hi-TPH** dataset, a large-scale **Hi**erarchical dataset for **T**CR-**pH**LA binding prediction, and corresponding codes used for data collection and benchmarks.
+<p align="center">
+  <a href="https://www.nature.com/articles/s43588-026-01073-y"><img src="https://img.shields.io/badge/Nature_Computational_Science-Resource-0B3D91?style=for-the-badge&logo=springer&logoColor=white" alt="Nature Computational Science — Resource"></a>
+  &nbsp;
+  <a href="https://doi.org/10.5281/zenodo.22647655"><img src="https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22647655-1682D4?style=for-the-badge&logo=doi&logoColor=white" alt="Zenodo DOI"></a>
+  &nbsp;
+  <a href="https://huggingface.co/Jiadong001/Hi-TPH-PLMs"><img src="https://img.shields.io/badge/🤗_HuggingFace-Hi--TPH--PLMs-FFD21E?style=for-the-badge" alt="HuggingFace"></a>
+  &nbsp;
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey?style=for-the-badge" alt="License: CC BY-NC 4.0"></a>
+</p>
+
+This repository contains the **Hi-TPH** dataset, a large-scale **Hi**erarchical dataset for **T**CR-**pH**LA binding prediction, and corresponding codes used for data collection and benchmarks, accompanying our [Resource article in Nature Computational Science](https://doi.org/10.1038/s43588-026-01073-y).
+
+<!-- See our Research Briefing (*coming soon*) for a concise overview of the motivation, key findings, and takeaways of this work. -->
 
 
 
@@ -183,6 +195,22 @@ conda install matplotlib seaborn jupyter notebook
       - See `benchmarks/scripts/eval_**.sh` to run `test_main.py`
 
 **Note: we have uploaded checkpoints of Hi-TPH-PLMs to [HuggingFace🤗: Jiadong001/Hi-TPH-PLMs](https://huggingface.co/Jiadong001/Hi-TPH-PLMs).**
+
+
+## 📖 Citation
+
+If you find Hi-TPH or Hi-TPH-PLMs useful in your research, please consider citing our paper:
+
+```bibtex
+@article{zhu2026machine,
+  title={Machine learning dataset and benchmark for accurate T cell receptor--pHLA binding prediction},
+  author={Zhu, Xinyuan and Lu, Jiadong and Lu, Yeqing and Zhang, Yuyan and Feng, Fuli},
+  journal={Nature Computational Science},
+  pages={1--11},
+  year={2026},
+  publisher={Nature Publishing Group US, New York}
+}
+```
 
 
 ## 👍 Acknowledgements
